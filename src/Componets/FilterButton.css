@@ -1,0 +1,192 @@
+.filter-full-container{
+    inline-size: 100%;
+    max-inline-size: 1340px;
+    margin-inline: auto;
+    padding: 0px 24px;
+}
+.filter-container{
+    margin: 16px 0px;
+}
+.under-filter-container{
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    max-inline-size: 800px;
+}
+.react-js,.results{
+    margin-left: 4px;
+    font-weight: 700;
+}
+.results{
+    font-weight: 400;
+}
+.filter-btn{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+.under-filter-btn-container{
+    inline-size: 100%;
+    min-inline-size: 0;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.all-filters{
+    display: flex;
+    justify-content: space-between;
+}
+.inside-all-filters{
+    min-inline-size: 0;
+}
+.inside-all-filters-btn{
+    block-size: 40px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #d1d2e0;
+    border-color: #9194ac;
+    border-radius: 1000px;
+    cursor: pointer;
+    gap: 4px;
+    max-inline-size: 100%;
+    color: #2a2b3f;
+    font-family: 'font-4';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.relevant, .select-btn-series,.new-relevant{
+    position: relative;
+}
+.most-relevant{
+    block-size: 40px;
+    border: 0;
+    min-inline-size: 0;
+    inline-size: unset;
+    display: flex;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    padding: 0px 8px 0px 8px;
+    max-inline-size: 200px;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'font-3';
+    line-height: 1.4;
+    font-size: 14px;
+}
+.sort-option{
+    background:#fff ;
+    text-align: end;
+}
+.filter-btn-series, .relevant{
+    min-inline-size: unset;
+    max-inline-size: unset;
+}
+.filter-grid-container{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    gap: 8px;
+    scrollbar-width: none;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    touch-action: manipulation;
+}
+.quizzes-container{
+    min-inline-size: 1px;
+    scroll-snap-align: start;
+}
+.quizzes-btn{
+    block-size: 40px;
+    padding: 0px 12px;
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+    max-inline-size: 100%;
+    align-items: center;
+    border: 1px solid #d1d2e0;
+    color: #2a2b3f;
+    border-color: #9194ac;
+    border-radius: 1000px;
+    background-color: #fff;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.quizzes{
+    flex: 1 1 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.extra-filter{
+    min-inline-size: 0;
+    display: flex;
+    gap: 8px;
+}
+.extra-filter{
+    display: none;
+}
+.inside-extra-filter{
+    z-index: 1;
+    min-inline-size: 0;
+    flex-shrink: 0;
+    position: relative;
+}
+.inside-extra-filter{
+    display: none;
+}
+.downarrow-img{
+    inline-size: 20px;
+    block-size: 20px;
+    fill: currentColor;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.new-relevant{
+    display: none;
+}
+/* responsive website */
+@media screen and (min-width:933px) {
+    .filter-btn{
+        margin: 24px 0px;
+    }
+    .under-filter-btn-container{
+        inline-size: unset;
+        gap: 8px;
+        flex-direction: row;
+    }
+    .filter-container{
+        display: none;
+    }
+    .extra-filter{
+        display: flex;
+    }
+    .language{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:653px) {
+    .relevant {
+        display: none;
+    }
+    .new-relevant{
+        display: block;
+    }
+}
+@media screen and (min-width:1440px) {
+    .other-btn{
+        display: flex;
+    }
+    .filter-btn{
+        margin: 32px 0px;
+    }
+}
+

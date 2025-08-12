@@ -1,0 +1,259 @@
+.coursePage-container{
+    position: relative;
+}
+.sub-coursePage-container{
+    padding-top: 8px;
+}
+.inside-coursePage{
+    margin-inline: auto;
+    max-inline-size: 1084px;
+}
+.coursePage-head{
+    margin: 24px 24px 8px 24px;
+}
+.inside-coursePage-head{
+    scroll-padding: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4px;
+    margin: 0px -4px;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+}
+.programing{
+    padding: 4px 0px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: oklch(48.41% 0.2342 293.93deg);
+    text-decoration: none;
+}
+.right-arrow{
+    position: relative;
+    inset-block-start: 1px;
+    margin: 4px;
+    inline-size: 16px;
+    block-size: 16px;
+}
+.course-img-container{
+    margin-bottom: 24px;
+    inline-size: 100%;
+    max-inline-size: 600px;
+    position: relative;
+    padding: 0px 4px;
+}
+.inside-img-container{
+    display: block;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.router-react-img{
+    background-size: cover;
+    position: absolute;
+}
+.play-icon{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    block-size: 100%;
+    inline-size: 100%;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+}
+.play-icon-img{
+    inline-size: 64px;
+    block-size: 64px;
+}
+.preview-course{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 16px;
+    position: absolute;
+    inline-size: 100%;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    block-size: 100%;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+    color: #fff;
+}
+.react-guide-container{
+    margin: 24px 24px 0px 24px;
+}
+.inside-react-guide{
+    /* padding-bottom: 24px; */
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.react-head-container{
+    margin-bottom: 16px;
+    max-inline-size: 1084px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 24.1111px;
+}
+.inside-guide-para{
+    margin-bottom: 16px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 17.0139px;
+}
+.bg-bottom{
+    margin-bottom: 8px;
+}
+.author-created-container{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.author-created{
+    overflow: hidden;
+    flex: 1;
+}
+.author{
+    display: inline;
+    margin-left: 3px;
+    color: oklch(48.41% 0.2342 293.93deg);
+    text-decoration: underline;
+}
+.issue-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.last-update{
+    margin-bottom: 8px;
+    display: flex;
+}
+.bordered-explamation{
+    margin: 2px 8px 0px 0px;
+    inline-size: 16px;
+    block-size: 16px;
+}
+.issue-english-container{
+    margin: 0px 16px 8px 0px;
+    display: flex;
+}
+.inside-lang-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-inline-size: 600px;
+}
+.development{
+    display: none;
+}
+/* responsive section */
+@media screen and (min-width:768px) {
+    .sub-coursePage-container{
+        padding-top: 16px;
+    }
+    .coursePage-head{
+        margin: 0px 84px 16px 84px;
+    }
+    .development{
+        display: flex;
+    }
+    .course-img-container{
+        margin: 0px 84px 32px 84px;
+    }
+    .react-guide-container{
+        margin: 0px 84px;
+        padding-bottom: 32px;
+    }
+    .react-head-container{
+        font-size:27.0222px;
+    }
+    .inside-guide-para{
+        font-size: 17.3778px;
+    }
+    .author-created-container, .bg-bottom {
+        margin-right: 8px;
+    }
+    .bg-bottom{
+        flex-direction: row;
+        margin-bottom: 16px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .coursePage-head{
+        margin: 0px 212px 16px 212px;
+    }
+    .course-img-container{
+        margin: 0px 212px 32px 212px;
+    }
+    .react-guide-container{
+        margin: 0px 212px;
+    }
+    .react-head-container{
+        font-size: 28.9185px;
+    }
+    .inside-guide-para{
+        font-size: 17.6148px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .sub-coursePage-container{
+        background-color: oklch(20.35% 0.0139 285.09deg);
+        padding: 32px 0px;
+    }
+    .course-img-container{
+        display: none;
+    }
+    .inside-coursePage{
+        max-inline-size: 1184px;
+    }
+    .coursePage-head{
+        margin: 0px 48px 16px 48px;
+        max-inline-size: 700px;
+        color:  oklch(100% 0 0deg);
+    }
+    .inside-coursePage-head{
+        position: relative;
+        inset-block-start: -8px;
+    }
+    .programing{
+        color: #c0c4fc;
+    }
+    /* .right-arrow{
+        color: oklch(100% 0 0deg);
+    } */
+    .react-guide-container{
+        max-inline-size: 700px;
+        margin: 0px 48px;
+        color: #fff;
+        padding-bottom: 0px;
+    }
+    .react-head-container{
+        max-inline-size: 1184px;
+        font-size: 32px;
+    }
+    .inside-guide-para{
+        margin-bottom: 24px;
+        font-size: 18px;
+    }
+    .author{
+        color: #c0c4fc;
+    }
+    .issue-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .last-update, .issue-english-container{
+        margin: 0px 8px 16px 0px;
+    }
+}

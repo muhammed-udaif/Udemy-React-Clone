@@ -1,0 +1,44 @@
+.course-coupon-container{
+    margin: 24px 24px 0px 24px;
+}
+.inside-course-coupon-container{
+    margin-top: 16px;
+}
+.under-inside-coupon-container{
+    margin-top: -16px;
+}
+.personal-team-container{
+    inline-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: inset 0 -1px 0 0 oklch(86.72% 0.0192 282.72deg);
+}
+.personal-container{
+    border-block-end: 2px solid oklch(33.88% 0.0354 277.71deg);
+    flex: 1 1 auto;
+}
+.personal-btn{
+    color: oklch(29.74% 0.0362 281.74deg);
+    background: transparent;
+    padding: 8px 4px;
+    outline-offset: -4px !important;
+    position: relative;
+    inline-size: 100%;
+    min-inline-size: auto;
+    block-size: 48px;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    display: inline-flex;
+    max-inline-size: 100%;
+    justify-content: center;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.teams-container{
+    flex: 1 1 auto;
+}

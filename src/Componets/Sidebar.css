@@ -1,0 +1,281 @@
+.sidebar-full-container{
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 100ms linear;
+    background: rgba(233, 234, 242, 0.8);
+    backdrop-filter: blur(8px);
+    inset-inline-start: 0;
+    position: fixed;
+    inset-block-start: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    z-index: 1030;
+    padding: 0px;
+    display: inline-flex;
+    cursor: pointer;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px; 
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+.sidebar-full-container.open{
+    transform: translateX(0);
+}
+.sidebar-container{
+    transform: translateX(0);
+    transition: transform 250ms cubic-bezier(0,0,0.38,0.9);
+    display: block;
+    position: fixed;
+    inset-block-start: 0;
+    inline-size: 280px;
+    max-inline-size: 78%;
+    block-size: 100%;
+    background: #fff;
+    z-index: 1030;
+    inset-inline-start: 0;
+    opacity: 1;
+    position: absolute;
+    inset-inline-start: 0;
+    clip: rect(auto, auto, auto, auto);
+}
+.under-sidebar-container{
+    block-size: 100%;
+    overflow: auto;
+    padding-block-end: 32px;
+}
+.sidebar-top-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-inline-size: none;
+}
+.sidebar-top-button{
+    display: flex;
+    align-items: center;
+    background: #f6f7f9;
+    padding: 16px;
+    color: #2a2b3f;
+    inline-size: 100%;
+    block-size: auto;
+    text-align: start;
+    letter-spacing: normal;
+    margin: 0px -4px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+}
+ 
+.for-btn{
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-inline-size: 100%;
+    justify-content: center;
+    vertical-align: bottom;
+}
+.top-user-container{
+    min-block-size: 22.4px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-inline-size: 1px;
+}
+.sidebar-jm-container{
+    display: inline-flex;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background: #16161d;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    object-fit: cover;
+    color: #fff;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+    max-inline-size: 722px;
+}
+.inside-rounded-sidebar{
+    position: absolute;
+    font-size: 16px;
+    inset-block-start: 0;
+    /* inset-inline-end: 2%; */
+    inset-inline-start: 22.5%;
+    inset-block-start: 17%;
+    border-radius: 1000px;
+    block-size: 16px;
+    inline-size: 16px;
+    background: #a435f0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+}
+.for-top-greeting-name{
+    flex: 1 1 0%;
+}
+.greeting{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 8px;
+    overflow-wrap: anywhere;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.welcoming{
+    color: #595c73;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 8px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.learn{
+    color: #595c73;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    margin-bottom: -4px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.list-under-learn{
+    padding: 8px 0px;
+    list-style: none;
+    margin: 0px;
+    max-inline-size: none;
+}
+.learn-list-item{
+    padding: 8px 16px;
+    margin: 0px -4px;
+    color: #2a2b3f;
+    display: flex;
+    align-items: flex-start;
+    inline-size: 100%;
+    block-size: auto;
+    text-align: start;
+    letter-spacing: normal;
+    white-space: normal;
+    background-color: transparent;
+    min-inline-size: auto;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-inline-size: 100%;
+    justify-content: center;
+    vertical-align: bottom;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.my-learning{
+    min-block-size: 22.4px;
+    flex: 1;
+    min-inline-size: 1px;
+}
+.explore-goal{
+    border-block-start: 1px solid #d1d2e0;
+    color: #595c73;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    margin-bottom: -4px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+    /* max-inline-size: 600px; */
+}
+.list-of-explore-goal{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+    max-inline-size: none;
+}
+.ai-learn{
+    padding: 8px 16px;
+    align-items: flex-start;
+    background-color: transparent;
+}
+.under-ai-img{
+    margin-left: 8px;
+    min-block-size: 22.4px;
+    inline-size: 20px;
+    block-size: 20px;
+    fill: currentColor;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.global{
+    padding: 0px 16px;
+    margin: 0px;
+}
+.under-global{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 16px;
+    min-inline-size: 140px;
+    block-size: 40px;
+    color: #6d28d2;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+    border: 1px solid #6d28d2;
+    background: transparent;
+}
+.global-img,.cross-img{
+    inline-size: 20px;
+    block-size: 20px;
+    fill: currentColor;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.english{
+    margin-left: 4px;
+}
+.cross-btn{
+    transform: scale(1);
+    transition: transform 100ms cubic-bezier(0, 0, 0.38, 0.9) 400ms;
+    inset-block-start: 0;
+    margin: 16px;
+    inset-inline-start: 100%;
+    box-shadow: 0 2px 4px rgba(6, 17, 118, 0.08), 0 4px 12px rgba(6, 17, 118, 0.08);
+    position: relative;
+    border-radius: 1000px;
+    padding: 0px 10px;
+    inline-size: 40px;
+    min-inline-size: auto;
+    block-size: 40px;
+    align-items: center;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+    background-color: #fff;
+    left: 284px;
+}

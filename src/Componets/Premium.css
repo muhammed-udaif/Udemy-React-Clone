@@ -1,0 +1,209 @@
+.premium-container{
+    margin: 24px 24px 0px 24px;
+    position: relative;
+    /* inline-size: 100%; */
+}
+.inside-premium-container{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #d1d2e0;
+    block-size: 76px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.sub-premium-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 3 0 100px;
+    gap: 8px;
+    block-size: 100%;
+    justify-content: center;
+    order: 3;
+    padding: 0px 8px;
+    text-align: center;
+}
+.premium-tick-container{
+    position: relative;
+}
+.border-tick{
+    color: #5022c3;
+    inline-size: 24px;
+    block-size: 24px;
+    /* fill: currentColor; */
+}
+.premium-original{
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+.straight-line, .straight-line-second{
+    order: 2;
+    border-inline-end: 1px solid #d1d2e0;
+    block-size: 48px;
+}
+.rating-count-container, .people-count-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 78px;
+    gap: 8px;
+    justify-content: center;
+    margin: 0px 8px;
+    order: 1;
+    text-align: center;
+}
+.inside-rating-count-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.inside-premium-rating{
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.inside-star-rating{
+    display: inline-flex;
+    align-items: center;
+}
+.above-four-rating{
+    display: block;
+    inline-size: 61px;
+    block-size: 14px;
+}
+.people-rated{
+    text-decoration: underline;
+    inline-size: max-content;
+    color: #595c73;
+    cursor: pointer;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.straight-line-second{
+    order: 4;
+}
+.people-count-container{
+    order: 5;
+}
+.inside-people-count{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    text-align: center;
+}
+.user-img{
+    margin: 0px;
+}
+.people-count{
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+.learners{
+    color: #595c73;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.access-container{
+    display: none;
+    margin: 7.313px 16px 7.313px 16px;
+    inline-size: 100%;
+}
+.inside-access-container{
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.plan-pricing{
+    text-decoration: underline;
+    color: oklch(48.41% 0.2342 293.93deg);
+    font-weight: 700;
+}
+/* responsive section */
+@media screen and (min-width:768px) {
+    .premium-container{
+        max-inline-size: 600px;
+        margin: 0px 84px;
+    }
+    .inside-premium-container{
+        block-size: 95px;
+    }
+    .sub-premium-container{
+        background-color: #5022c3;
+        padding: 0px 16px;
+        color: #fff;
+        flex-grow: 0;
+        order: 1;
+    }
+    .border-tick{
+        color: inherit;
+    }
+    .premium-original{
+        font-size: 16px;
+    }
+    .access-container{
+        display: inherit;
+        order: 2;
+        flex: 1 1 259px;
+    }
+    .straight-line, .straight-line-second{
+        order: 3;
+        block-size: 64px;
+    }
+    .rating-count-container, .people-count-container{
+        flex: 1 1 111px;
+        margin: 0px 16px;
+        order: 4;
+    }
+    .inside-premium-rating{
+        font-size: 21.5111px;
+        max-inline-size: 774.4px;
+    }
+    .people-rated, .people-count, .learners{
+        font-size: 14px;
+    }
+    .straight-line-second{
+        order: 5;
+    }
+    .people-count-container{
+        order: 6;
+    }
+    .user-img{
+        inline-size: 24px;
+        block-size: 24px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .premium-container{
+        margin: 0px 212px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .premium-container{
+        margin: 0px 48px;
+        max-inline-size: 700px;
+    }
+    .inside-premium-rating{
+        font-size: 24px;
+    }
+    .above-four-rating{
+        inline-size: 70px;
+    }
+}

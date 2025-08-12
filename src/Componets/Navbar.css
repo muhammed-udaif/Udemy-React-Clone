@@ -1,0 +1,212 @@
+.navbar{
+    box-shadow: 0 2px 4px rgba(6, 17, 118, 0.08), 0 4px 12px rgba(6, 17, 118, 0.08);
+    z-index: 1010;
+    background: #fff;
+    position: relative;
+    padding: 4px;
+    block-size: 3.5rem;
+}
+.under-nav{
+    display: flex;
+    align-items: center;
+}
+.three-line , .search, .cart{
+    background-color: transparent;
+    border: none;
+    padding: 0px 4px;
+    /* padding-top: 4px;   hard code */
+    margin: 0px -4px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    inline-size: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    cursor: pointer;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+.space{
+    inline-size: 48px;
+    block-size: 48px;
+    visibility: hidden;
+}
+.udemy{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+.udemy-img{
+    width: 75px;
+    height: 28px;
+    /* aspect-ratio: auto 75 / 28; */
+    max-inline-size: 100%;
+    block-size: auto;
+}
+.search, .cart{
+    padding: 0px 10px;
+    margin: 0px -4px;
+    block-size: 40px;
+}
+.new-nav-container{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    block-size: 72px;
+    padding: 0px 24px;
+    position: relative;
+    z-index: 1010;
+    box-shadow: 0 2px 4px rgba(6, 17, 118, 0.08), 0 4px 12px rgba(6, 17, 118, 0.08);
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.new-udemy{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding-right: 8px;
+}
+.new-udemy img{
+    max-inline-size: 100%;
+    block-size: auto;
+    vertical-align: middle;
+}
+.explore-btn{
+    padding: 0px 12px;
+    margin: 12px 0px;
+    background-color: transparent;
+    min-inline-size: auto;
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    border: none;
+    /* color: #6d28d2; */
+    border-radius: 4px;
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+    max-inline-size: 100%;
+    vertical-align: bottom;
+    white-space: nowrap;
+    /* font-family: 'font-1'; */
+    letter-spacing: 0;
+    /* font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4; */
+}
+.explore{
+    color: #2a2b3f;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.search-bar{
+    max-inline-size: none;
+    flex-grow: 1;
+    block-size: 48px;
+    border: 1px solid #9194ac;
+    border-radius: 1000px;
+    background-color: #fff;
+    margin: 0px 12px;
+    position: relative;
+    min-inline-size: 180px;
+}
+.for-search{
+    display: flex;
+    align-items: center;
+    block-size: 100%;
+    padding-right: 24px;
+    flex-direction: row-reverse;
+}
+.input-search{
+    background-color: transparent;
+    padding-left: 4px;
+    border: 0;
+    flex: 1;
+    block-size: 34px;
+    border-radius: 4px;
+    display: block;
+    inline-size: 100%;
+}
+.input-search-btn{
+    opacity: 0.5;
+    padding: 0px 10px;
+    margin: 0px -4px;
+}
+.teach-container{
+    position: relative;
+}
+.under-teach-container{
+    margin: 12px 0px;
+    padding: 0px 12px;
+    background-color: transparent;
+    min-inline-size: auto;
+}
+.under-heart-container{
+    padding: 0px 10px;
+    margin: 12px 0px;
+}
+.name-container{
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+    background: #16161d;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    object-fit: cover;
+    color: white;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.rounded-circle{
+    inset-block-start: 8px;
+    inset-inline-end: 8px;
+    position: absolute;
+    font-size: 12px;
+    margin: 0;
+    border-radius: 1000px;
+    block-size: 12px;
+    inline-size: 12px;
+    background: #a435f0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+}
+#jm-container{
+    padding: 0px 4px;
+}
+.new-nav-container {
+    display: none;
+}
+.udemy-business{
+    display: none;
+}
+/* responsive site */
+@media screen and (min-width:800px){
+    .navbar{
+        display: none;
+    }
+    .new-nav-container {
+       display: flex;
+    }
+    .padding{
+       padding: 0px 10px;
+    }
+}
+@media screen and (min-width:1440px){
+    .udemy-business{
+        display: inline-flex;
+    }
+}
+
