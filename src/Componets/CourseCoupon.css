@@ -33,7 +33,7 @@
     display: inline-flex;
     max-inline-size: 100%;
     justify-content: center;
-    font-family: 'font-1';
+    font-family: 'font-3';
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
@@ -42,3 +42,254 @@
 .teams-container{
     flex: 1 1 auto;
 }
+.subscription-container{
+    padding-top: 16px;
+    max-inline-size: none;
+    max-block-size: none;
+}
+.premium-subscription-container{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+.border-tick{
+    color: oklch(48.41% 0.2342 293.93deg);
+    inline-size: 16px;
+    block-size: 16px;
+}
+.premium-course-subscription, .subscription-description{
+    font-family: 'font-2';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.subscribe-to-udemy{
+    font-family: 'font-5';
+    font-weight: 700;
+    font-size: 17.0139px;
+    line-height: 1.35;
+    letter-spacing: -0.095px;
+    max-inline-size: 612.5px;
+}
+.subscription-description{
+    margin-bottom: 16px;
+    /* font-family: 'font-1'; */
+}
+.description-learn{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: oklch(48.41% 0.2342 293.93deg);
+    /* text-decoration-color: oklch(67.76% 0.2011 301.5deg); */
+    font-family: 'font-4'; 
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;       
+}
+.start-subscription-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+.inside-start-subscription{
+    inline-size: 100%;
+    block-size: 48px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: oklch(48.41% 0.2342 293.93deg);
+    display: inline-flex;
+    max-inline-size: 100%;
+    min-inline-size: 80px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+    padding: 0px 12px;
+}
+.start-subscription-description{
+    font-size: 12px;
+    color: oklch(48.09% 0.0371 279.08deg);
+}
+.or-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: oklch(48.09% 0.0371 279.08deg);
+    margin: 16px 0px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.or-container::before, .or-container::after{
+    margin-right: 8px;
+    content: '';
+    flex: 1;
+    border-block-end: 1px solid oklch(86.72% 0.0192 282.72deg);
+}
+/* .or-container::after{
+    margin-left: 8px;
+    content: '';
+    flex: 1;
+    border-block-end: 1px solid oklch(86.72% 0.0192 282.72deg);
+} */
+ .price-container{
+    margin-bottom: 8px;
+ }
+ .inside-price-container{
+    display: flex;
+    align-items: center;
+    color: oklch(29.74% 0.0362 281.74deg);
+    flex-flow: row wrap;
+ }
+ .price-item{
+    margin-right: 8px;
+    padding: 4px 0px;
+    line-height: 1;
+    font-family: 'font-3';
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+    max-inline-size: 722px;
+ }
+ .add-cart-container{
+    margin: 16px 0px 8px 0px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+ }
+ .add-to-cart{
+    flex: 1;
+ }
+ .add-cart-btn, .inside-start-subscription{
+    width: 100%;
+    /* min-inline-size: 8px; */
+ }
+ .heart{
+   /* font-family: 'font-1'; */
+   min-inline-size: 0;
+   padding: 0px 12px;
+   inline-size: 48px;
+   background-color: transparent;
+   border:1px solid oklch(48.41% 0.2342 293.93deg);
+ }
+ .heart-img{
+    inline-size: 24px;
+    block-size: 24px;
+ }
+ .buy-now-btn{
+    color:oklch(48.41% 0.2342 293.93deg);
+    background-color: transparent;
+    border: 1px solid oklch(48.41% 0.2342 293.93deg);
+ }
+ .inside-money-back-container{
+    margin-bottom: 8px;
+ }
+ .money-back-days{
+    display: block;
+    font-size: 12px;
+    margin-top: 16px;
+    text-align: center;      
+ }
+ .inside-share-gift-coupon{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+ }
+ .share{
+    flex: auto;
+    text-underline-offset: 3px;
+    text-decoration: underline;
+    text-decoration-color:oklch(67.76% 0.2011 301.5deg);
+    background-color: transparent;
+    min-inline-size: auto;
+    margin: 0px -4px;
+    padding: 0px 4px;
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: oklch(29.74% 0.0362 281.74deg) ;
+ }
+ .redeem-straight{
+    display: flex;
+    flex-direction: column;
+ }
+ .redeemed-coupon{
+    color: oklch(67.22% 0.0355 279.77deg);
+    margin-bottom: 8px;
+ }
+ .inside-redeemed-coupon{
+    border: 1px dashed oklch(86.72% 0.0192 282.72deg);
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+ }
+ .inside-udemy-coupon{
+    font-size: 14px;
+    float: inline-start;
+    block-size: 48px;
+    inline-size: 100%;
+    align-items: center;
+    display: flex;
+ }
+ .inside-udemy-coupon li{
+    padding-left: 8px;
+ }
+ .enter-coupon-container{
+    display: flex;
+ } 
+ .input-coupon{
+    margin-right: 8px;
+    padding: 0px 16px;
+    flex: 1;
+    block-size: 40px;
+    border: 1px solid oklch(67.22% 0.0355 279.77deg);
+    border-radius: 4px;
+    display: block;
+    inline-size: 100%;
+    background-color: #fff;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+ }
+ .apply-coupon{
+    block-size: 40px;
+    font-size: 14px;
+    width: 0px;   
+ }
+ @media screen and (min-width:768px) {
+    .course-coupon-container{
+        margin: 0px 84px;
+        max-inline-size: 600px;
+    }
+    .subscribe-to-udemy{
+        font-size: 17.3778px;
+    }
+    .or-container{                    
+        margin: 32px 0px;
+    }
+ }
+ @media screen and (min-width:1024px) {
+    .course-coupon-container{
+        margin: 0px 212px;
+        padding-bottom: 32px;
+    }   
+ }  
