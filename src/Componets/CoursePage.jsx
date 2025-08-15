@@ -7,6 +7,8 @@ import globe from '../assests/global.svg'
 import text from '../assests/text.svg'
 import Premium from './Premium'
 import CourseCoupon from './CourseCoupon'
+import Coupon from './Coupon'
+import Learn from './Learn'
 
 function CoursePage() {
     const links = [
@@ -70,6 +72,12 @@ function CoursePage() {
                 </div>
                 <Premium/>
                 <CourseCoupon/>
+                <Coupon/>
+                <div className="below-coupon-learn-container">
+                    <div className="sub-below-coupon-learn-container">
+                       <Learn/>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

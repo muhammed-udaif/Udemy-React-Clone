@@ -1,0 +1,83 @@
+.learn-container{
+    border: 1px solid oklch(86.72% 0.0192 282.72deg);
+    padding: 24px 0px;
+    margin-bottom: 32px;
+}
+.head-learn{
+    margin: 0px 24px 16px 24px;
+    max-inline-size: 1084px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+}
+.learn-description-container{
+    margin: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.under-learn-description-container{
+    max-height: 228px;
+    overflow: hidden;
+    position: relative;
+    inline-size: 100%;
+}
+.list-learning-item{
+    max-inline-size: 1084px;
+    list-style: none;
+}
+.learning-content{
+    color: oklch(29.74% 0.0362 281.74deg) ;
+    padding: 4px 0px;
+    display: flex;
+    align-items: flex-start;
+    inline-size: 100%;
+    block-size: auto;
+    text-align: start;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.learning-tick{
+    min-block-size: 19.6px;
+    color:oklch(29.74% 0.0362 281.74deg);
+    inline-size: 16px;
+    block-size: 16px;
+}
+.react-learning-content{
+    margin-left: 16px;
+    min-block-size: 19.6px;
+    flex: 1;
+    min-inline-size: 1px;
+    display: block !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Show-more-show-less-btn{
+    background-color: transparent;
+    min-inline-size: auto;
+    padding: 0px 4px ;
+    margin: 0px -4px;
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    color: oklch(48.41% 0.2342 293.93deg);
+    border: none;
+    border-radius: 4px;
+    display: inline-flex;
+    max-inline-size: 100%;
+    justify-content: center;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;      
+}
+.down-show-arrow, .up-show-arrow{
+   margin-inline-start: 4px;
+   inline-size: 16px;
+   block-size: 16px;
+}

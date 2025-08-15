@@ -157,6 +157,13 @@
 .development{
     display: none;
 }
+.below-coupon-learn-container{
+    max-inline-size: 1084px;
+    margin: 0px;
+}
+.sub-below-coupon-learn-container{
+    margin: 24px 24px 0px 24px;
+}
 /* responsive section */
 @media screen and (min-width:768px) {
     .sub-coursePage-container{
@@ -188,6 +195,14 @@
         flex-direction: row;
         margin-bottom: 16px;
     }
+    .below-coupon-learn-container{
+        padding-top: 32px;
+    }
+    .sub-below-coupon-learn-container{
+        margin: 0px 84px;
+        padding-bottom: 32px;
+        max-inline-size: 600px;
+    }
 }
 @media screen and (min-width:1024px) {
     .coursePage-head{
@@ -204,6 +219,9 @@
     }
     .inside-guide-para{
         font-size: 17.6148px;
+    }
+    .sub-below-coupon-learn-container{
+        margin: 0px 212px;
     }
 }
 @media screen and (min-width:1440px) {
@@ -255,5 +273,13 @@
     }
     .last-update, .issue-english-container{
         margin: 0px 8px 16px 0px;
+    }
+    .below-coupon-learn-container{
+        margin: 0px 128px;
+        max-inline-size: 1184px;
+    }
+    .sub-below-coupon-learn-container{
+        max-inline-size: 700px;
+        margin: 0px 48px;
     }
 }

@@ -61,3 +61,5 @@ function AppContent() {
 }
 
 export default AppContent
+
+// The usenavigate hook and the useparams hook is need to achieve the routing idea in the react concept , the main idea is that the usenavigate hook is used in the indivitual course card where the paramas hook need to  implement in the when the page is navigate then that page template is the use params is implemented this is the core idea behind the routing concept in react js

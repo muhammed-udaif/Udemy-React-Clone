@@ -144,6 +144,7 @@
     }
     .inside-premium-container{
         block-size: 95px;
+        /* position: absolute; */
     }
     .sub-premium-container{
         background-color: #5022c3;
@@ -206,4 +207,8 @@
     .above-four-rating{
         inline-size: 70px;
     }
+    .inside-premium-container{
+        position: absolute;
+    }
 }
+
