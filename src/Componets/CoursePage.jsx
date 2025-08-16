@@ -9,6 +9,10 @@ import Premium from './Premium'
 import CourseCoupon from './CourseCoupon'
 import Coupon from './Coupon'
 import Learn from './Learn'
+import Topic from '../Pages/Topic'
+import CourseInclude from '../Pages/CourseInclude'
+import Exercises from '../Pages/Exercises'
+import CourseSection from '../Pages/CourseSection'
 
 function CoursePage() {
     const links = [
@@ -73,13 +77,18 @@ function CoursePage() {
                 <Premium/>
                 <CourseCoupon/>
                 <Coupon/>
-                <div className="below-coupon-learn-container">
-                    <div className="sub-below-coupon-learn-container">
-                       <Learn/>
-                    </div>
-                </div>
             </div>
         </div>
+        <div className="staight-separation-section"></div>
+        <div className="below-coupon-learn-container">
+            <div className="sub-below-coupon-learn-container">
+                <Learn/>
+                <Topic/>
+                <CourseInclude/>
+                <Exercises/>
+                <CourseSection/>
+            </div>
+        </div>        
     </main>
     </>
   ) 

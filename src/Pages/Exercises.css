@@ -1,0 +1,86 @@
+.exercises-container{
+    margin-bottom: 32px;
+}
+.sub-exercises-container{
+    margin: 0px -24px;
+    background-color: oklch(97.59% 0.0029 264.54deg);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.coding-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.coding-head{
+    max-inline-size: 1084px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+}
+.coding-pare{
+  color: oklch(48.09% 0.0371 279.08deg);
+  padding-top: 16px; 
+  max-inline-size: 1084px;
+  font-family: 'font-1';
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.demo-section{
+    padding-top: 16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color:oklch(67.76% 0.2011 301.5deg) ;
+    background-color: transparent;
+    min-inline-size: auto;
+    block-size: auto;
+    max-inline-size: none;
+    text-align: start;
+    position: relative;
+    align-items: center;
+    color: oklch(48.41% 0.2342 293.93deg);
+    border: none;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.coding-img-container{
+    padding-top: 32px;
+}
+.coding-img{
+    box-shadow:0 2px 4px 
+    color-mix(in oklch, oklch(27.54% 0.1638 265.98deg) 8%, transparent), 0 4px 12px 
+    color-mix(in oklch, oklch(27.54% 0.1638 265.98deg) 8%, transparent) ;
+    inline-size: 100%;
+}
+
+/* responsive section */
+
+@media screen and (min-width:768px) {
+    .sub-exercises-container{
+        flex-direction: row;
+    }
+    .coding-container{
+        flex-basis: 33.33%;
+    }
+    .coding-head{
+        font-size: 21.5111px;
+    }
+    .coding-img-container{
+        margin-left: 32px;
+        padding: 0px;
+        display: flex;
+        justify-content: flex-end;
+        max-block-size: 252px;
+        flex-basis: calc(66.67% - 32px);
+    }
+}

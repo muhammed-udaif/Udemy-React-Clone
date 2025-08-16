@@ -23,6 +23,11 @@
     overflow: hidden;
     position: relative;
     inline-size: 100%;
+    transition: max-height 0.3s ease-in;
+}
+.under-learn-description-container.expand{
+    max-height: none;
+    overflow: visible;
 }
 .list-learning-item{
     max-inline-size: 1084px;
@@ -80,4 +85,20 @@
    margin-inline-start: 4px;
    inline-size: 16px;
    block-size: 16px;
+}
+@media screen and (min-width:768px) {
+    .learn-container{
+        padding-bottom: 16px;
+    }
+    .list-learning-item{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .list-learning-item li{
+        inline-size: 263px;
+    }
+    .head-learn{
+        font-size: 22.4593px;
+    }
 }

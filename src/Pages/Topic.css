@@ -1,0 +1,45 @@
+.topic-container{
+    margin-bottom: 32px;
+}
+.explore-related-topic{
+    max-inline-size: 1084px;
+    margin-bottom: 16px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size:20.0556px ;
+}
+.unordered-related-topic{
+    max-inline-size: 1084px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+}
+.topic-react{
+    min-inline-size: 80px;
+    block-size: 34px;
+    position: relative;
+    align-items: center;
+    color:oklch(29.74% 0.0362 281.74deg);
+    border: 1px solid oklch(67.22% 0.0355 279.77deg);
+    border-radius: 4px;
+    background-color: #fff;
+    display: inline-flex;
+    max-inline-size: 100%;
+    justify-content: center;
+    padding: 0px 12px;
+    font-family: 'font-2';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+/* responsive section */
+
+@media screen and (min-width:1440px) {
+    .explore-related-topic, .unordered-related-topic{
+        min-inline-size: 1184px;
+    }
+}

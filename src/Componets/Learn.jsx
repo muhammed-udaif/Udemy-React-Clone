@@ -26,7 +26,7 @@ function Learn() {
     <div className="learn-container">
         <h2 className='head-learn'>what you'll learn</h2>
         <div className="learn-description-container">
-            <div className="under-learn-description-container">
+            <div className={`under-learn-description-container ${showAll ? "expand":""}`}>
                 <ul className='list-learning-item'>
                     {visibleItems.map((item,index) =>(
                     <li key={index}>
@@ -38,7 +38,6 @@ function Learn() {
                     ))}
                 </ul>
             </div>
-        </div>   
         {learnContent.length > 4 && (        
         <button className='Show-more-show-less-btn' onClick={() => setShowAll(prev => !prev)}>
             <span>
@@ -49,6 +48,7 @@ function Learn() {
             <img src={showAll ? upArrow : downArrow} alt="down-show-arrow" className='down-show-arrow' />
         </button>
         )} 
+        </div>
     </div>
     </>
   )

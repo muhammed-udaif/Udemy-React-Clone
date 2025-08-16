@@ -164,6 +164,10 @@
 .sub-below-coupon-learn-container{
     margin: 24px 24px 0px 24px;
 }
+.staight-separation-section{
+    display: none;
+    block-size: 70px;
+}
 /* responsive section */
 @media screen and (min-width:768px) {
     .sub-coursePage-container{
@@ -281,5 +285,8 @@
     .sub-below-coupon-learn-container{
         max-inline-size: 700px;
         margin: 0px 48px;
+    }
+    .staight-separation-section{
+        display: block;
     }
 }
