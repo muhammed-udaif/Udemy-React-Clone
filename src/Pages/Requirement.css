@@ -1,0 +1,93 @@
+.requirement-container{
+    margin-bottom: 32px;
+}
+.sub-requirement-container{
+    border-block-end: 1px solid oklch(86.72% 0.0192 282.72deg);
+    border-block-start: 1px solid oklch(86.72% 0.0192 282.72deg);
+}
+.inside-requrement{
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 16px 0px;
+    color: oklch(29.74% 0.0362 281.74deg) !important;
+    text-align: start;
+    inline-size: 100%;
+    min-inline-size: auto;
+    block-size: auto;
+    max-inline-size: none;
+    position: relative;
+    border: none;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size:20.0556px;
+}
+.requirement{
+    display: flex;
+    flex: 1;
+    max-inline-size: 1084px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size:20.0556px;
+}
+.requirement-arrow-img{
+    margin-left: 16px;
+    color:oklch(29.74% 0.0362 281.74deg);
+    inline-size: 24px;
+    block-size: 24px;
+}
+.requirement-description-container{
+    max-block-size: none;
+    overflow: visible;
+    visibility: visible;
+}
+.requirement-description-container.requireExpant{
+    max-block-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.inside-requirement-description-container{
+    padding: 8px 0px;
+}
+.unordered-requirement-items{
+    max-inline-size: 1084px;
+    list-style: none;
+}
+.requirement-list-items{
+    color:oklch(29.74% 0.0362 281.74deg);
+    padding: 4px 0px;
+    display: flex;
+    align-items: flex-start;
+    inline-size: 100%;
+    block-size: auto;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.requirement-description-first-items{
+    margin-left: 16px;
+    min-block-size: 19.6px;
+    flex: 1;
+    min-inline-size: 1px;
+}
+.dot-requirement-img{
+    min-block-size: 19.6px;
+    inline-size: 16px;
+    block-size: 16px;
+    /* flex-shrink: 0; */
+}
+
+/* responsive section  */
+@media screen and (min-width:1024px) {
+    .requirement{
+        font-size: 22.4593px;
+    }
+}                                                   
