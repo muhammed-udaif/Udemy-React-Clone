@@ -15,6 +15,8 @@ import Exercises from '../Pages/Exercises'
 import CourseSection from '../Pages/CourseSection'
 import Requirement from '../Pages/Requirement'
 import Description from '../Pages/Description'
+import BoughtCourse from '../Pages/BoughtCourse'
+import Instructure from '../Pages/Instructure'
 
 function CoursePage() {
     const links = [
@@ -91,6 +93,8 @@ function CoursePage() {
                 <CourseSection/>
                 <Requirement/>
                 <Description/>
+                <BoughtCourse/>
+                <Instructure/>
             </div>
         </div>        
     </main>

@@ -1,0 +1,199 @@
+.bought-course-container{
+    margin-bottom: 32px;
+}
+.student-bought{
+    max-inline-size: 1084px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size:20.0556px ;
+}
+.bought-contents-container{
+    overflow: auto hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bought-courses-container{
+    max-height: 610px;
+    overflow: hidden;
+    position: relative;
+    inline-size: 100%;
+}
+.bought-courses-container.expandBrought{
+    overflow: visible;
+    max-block-size: none !important;
+}                  
+.inside-bought-courses-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.ultimate-react-bought-course{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0px;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.bought-description-container{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    position: relative;
+    min-inline-size: 180px;
+    margin-left: 8px;
+}
+.ultimate-bought-react-head{
+    color: #2a2b3f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'font-2';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.bought-btn-rating-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4px;
+}
+.best-seller-bought-container{
+    margin: 0px 8px 4px 0px;
+    display: flex;
+    gap:0px 8px ;
+}
+.bought-hour-container{
+    display: flex;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.bought-hour-section{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #206241;
+}
+.bought-hour-section::after{
+    content: '●';
+    margin: 0px 4px;
+    font-size: 6px;
+}
+.bought-rating-people-container{
+    display: flex;
+    flex: 3;
+    margin: 4px 0px 0px 74px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inside-bought-rating{
+    display: inline-flex;
+    align-items: center;
+}
+.bought-rating{
+    margin-right: 4px;
+    color: oklch(46.68% 0.1161 51.53deg);
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.bought-star-img, .bought-user-img{
+    inline-size: 16px;
+    block-size: 16px;
+}
+.inside-bought-people-count{
+    margin: 0px 8px;
+    display: flex;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.bought-people-count{
+    margin-left: 4px;  
+}
+.bought-price-container{
+    display: flex;  
+    color: oklch(29.74% 0.0362 281.74deg);
+    flex-flow: row wrap;
+    flex-direction: revert;
+    align-items: center;
+    flex-basis: 100%;
+    margin-top: 4px;
+}
+.inside-bought-price-container{
+    margin-left: 4px;
+    line-height: 1;
+    font-family: 'font-3';
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.bought-img-container{
+    order: -1;
+}
+.brought-img-section{
+    border: 1px solid #d1d2e0;
+    display:block;
+    min-inline-size: 64px;
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: 20px;
+}  
+.brought-show-more-less-btn{
+    color: oklch(48.41% 0.2342 293.93deg);
+    background-color: color-mix(in oklch, oklch(48.41% 0.2342 293.93deg) 12%, transparent);
+    inline-size: 100%;
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    border: 1px solid oklch(48.41% 0.2342 293.93deg);
+    border-radius: 4px;
+    display: inline-flex;
+    max-inline-size: 100%;
+    min-inline-size: 80px;
+    padding: 0px 12px;
+    justify-content: center;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}      
+/* responsive section */
+
+@media screen and (min-width:768px) {
+    .bought-btn-rating-container{
+        flex-direction: row;
+        margin-top: 8px;
+    }
+    .best-seller-bought-container{
+        margin-bottom: 0px;
+    }
+    .bought-rating-people-container{
+        margin: 0px 0px 0px 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .inside-bought-people-count{
+        margin: 0px 32px 0px 24px;
+    }
+    .bought-price-container{
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0px;
+        flex-basis: 0px;
+    }
+    /* .brought-like-container{
+        display: block;
+    } */
+}

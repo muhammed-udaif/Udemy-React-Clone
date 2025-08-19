@@ -1,0 +1,64 @@
+.instructure-container{
+    margin-bottom: 32px;           
+}
+.instructor-section-container{
+    position: relative;
+    inset-block-start: -59px;
+}
+.instructor-head{
+    max-inline-size: 1084px;
+    margin-bottom: 16px;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+}
+.online-instructor-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    position: relative;
+}
+.academind-the-online-educator{
+    margin-bottom: 4px;
+    text-decoration: underline;
+    text-decoration-color: oklch(67.76% 0.2011 301.5deg);
+    text-underline-offset: 4px;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size:17.0139px ;
+    max-inline-size: 612.5px;
+}
+.online-educators{
+    color:oklch(48.09% 0.0371 279.08deg);
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.online-educator-picture-containig-container{
+    margin-top: 8px;
+    display: flex;
+}
+.educator-img-section{
+    flex: 0 0 auto;
+    min-inline-size: 1px;
+    margin-right: 16px; 
+}
+.maximilian-img{
+    width: 64px;
+    height: 64px;
+    inline-size: 112px !important;
+    block-size: 112px !important ;
+    background: transparent;
+    border: 1px solid oklch(86.72% 0.0192 282.72deg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    object-fit: cover;
+    color: #fff;
+}
