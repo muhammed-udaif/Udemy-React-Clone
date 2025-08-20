@@ -3,12 +3,12 @@
 }
 .instructor-section-container{
     position: relative;
-    inset-block-start: -59px;
+    /* inset-block-start: -59px; */
 }
 .instructor-head{
     max-inline-size: 1084px;
     margin-bottom: 16px;
-    font-family: 'font-1';
+    font-family: 'font-3';
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
@@ -23,9 +23,9 @@
 .academind-the-online-educator{
     margin-bottom: 4px;
     text-decoration: underline;
-    text-decoration-color: oklch(67.76% 0.2011 301.5deg);
+    color: oklch(67.76% 0.2011 301.5deg);
     text-underline-offset: 4px;
-    font-family: 'font-1';
+    font-family: 'font-3';
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
@@ -61,4 +61,82 @@
     border-radius: 1000px;
     object-fit: cover;
     color: #fff;
+}
+.unordered-list-of-educator{
+    max-inline-size: 1084px;
+    list-style: none;
+}
+.instructor-rating-container{
+    color: oklch(29.74% 0.0362 281.74deg);
+    padding: 4px 0px;
+    display: flex;
+    align-items: flex-start;
+    inline-size: 100%;
+    block-size: auto;
+    text-align: start;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.black-shaded-star{
+    min-block-size: 19.6px;
+    color:oklch(29.74% 0.0362 281.74deg);
+    inline-size: 16px;
+    block-size: 16px;
+}
+.instructor-rating-description{
+    margin-left: 16px;
+    min-block-size: 19.6px;
+    flex: 1;
+    min-inline-size: 1px;
+}
+.instructor-discription-container{
+    margin: 16px 0px 8px 0px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.inside-instructor-discription-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.full-details-of-the-instructor{
+    max-height: 146px;
+    overflow: hidden;
+    position: relative;
+    inline-size: 100%;
+}
+.full-details-of-the-instructor.expandInstructor{
+    overflow: visible;
+    max-block-size:none !important ;
+}
+.instructor-margin-section{
+    margin-top: 8px;
+}
+.instructor-show-btn{
+    background-color: transparent;
+    min-inline-size: auto;
+    margin: 0px -4px;
+    padding: 0px 4px;
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    color: oklch(48.41% 0.2342 293.93deg);
+    border: none;
+    display: inline-flex;
+    max-inline-size: 100%;
+    /* justify-content: center; */
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.instructor-uparrow-downarrow{
+    margin-left: 4px;
+    inline-size: 16px;
+    block-size: 16px;
 }

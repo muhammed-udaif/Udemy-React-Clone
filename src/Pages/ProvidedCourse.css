@@ -1,0 +1,65 @@
+.provided-full-course-container{
+    margin-bottom: 32px;
+}
+.head-of-provided-course{
+    max-inline-size: 1084px;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size:20.0556px ;
+}
+.change-color-head{
+    color:oklch(48.41% 0.2342 293.93deg);
+}
+.single-provided-course-container{
+    margin: 16px 0px;
+    display: inline-block;
+    inline-size: 100%;
+}
+.inside-the-course-container{
+    block-size: 100%;
+    inline-size: 100%;
+}
+.provided-img-and-description-container{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto 1fr;
+    min-inline-size: 222px;
+    max-inline-size: 552px;
+    gap: 8px;
+}
+.provided-img-container{
+    align-self: start;
+    background-color:oklch(20.35% 0.0139 285.09deg);
+    border: 1px solid  oklch(86.72% 0.0192 282.72deg);
+    overflow: hidden;
+    position: relative;
+}
+.provided-real-img{
+    display: block;
+    inline-size: 100%;
+    /* block-size: 60px; */
+}
+.provided-description-container{
+    color:oklch(29.74% 0.0362 281.74deg);
+    min-inline-size: 1px;
+}
+.flutter-dart-complete-guide{
+    max-inline-size: 1084px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: oklch(29.74% 0.0362 281.74deg);
+}
+.provided-course-author-container{
+    margin-bottom: 4px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}

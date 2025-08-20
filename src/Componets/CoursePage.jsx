@@ -17,6 +17,12 @@ import Requirement from '../Pages/Requirement'
 import Description from '../Pages/Description'
 import BoughtCourse from '../Pages/BoughtCourse'
 import Instructure from '../Pages/Instructure'
+import blackShadedStar from '../assests/blackShaded-star.svg'
+import grade from '../assests/grade.svg'
+import user from '../assests/user.svg'
+import blackPlay from '../assests/blackPlay.svg'
+import PeopleComment from '../Pages/PeopleComment'
+import ProvidedCourse from '../Pages/ProvidedCourse'
 
 function CoursePage() {
     const links = [
@@ -94,7 +100,46 @@ function CoursePage() {
                 <Requirement/>
                 <Description/>
                 <BoughtCourse/>
-                <Instructure/>
+                <Instructure 
+                mainHead="Instructors"
+                head="Academind by Maximilian Schwarzmüller"
+                role= "Online Education"
+                instructorList = {[
+                    {src:blackShadedStar,head:"4.6 Instructor Rating"},
+                    {src:grade, head:"808,761 Reviews"},
+                    {src:user, head:"3,363,355 Students"},
+                    {src:blackPlay, head:"48 Courses"}
+                ]}
+                description ={
+                    ["Bundling the courses and know how of successful instructors, Academind strives to deliver high quality online education",
+                     "Online Education, Real-Life Success- that's what Academind stands for. Learn topics like web development, data analyses and more in a fun engaging way.",
+                     "We.ve taught more than 3,000,000 students on a broad variety of topics. We'd love to teach you as well :)",
+                     "Keep learning "
+                    ]
+                }/>   
+                <Instructure 
+                head="Maximilian Schwarzmüller"
+                role="AWS certified, Professional Web Developer and Instructor"
+                instructorList={[
+                    {src:blackShadedStar, head:"4.6 Instructor Rating"},
+                    {src:grade, head:"1,240,545 Reviews"},
+                    {src:user, head:"3,407,110 Students"},
+                    {src:blackPlay, head:"66 Courses"}
+                ]}
+                description={
+                    [
+                        "Starting out at the age of 12 I never stopped learning new programming skills and languages. Early I started creating websites for friends and just for fun as well, Besides web development I also explored Python and other non-web-only languages. This passion has since lasted and lead to my decision of working as a freelance web developer and consultant, The success and fun I have in this job is inmense and really keeps that passion burningly alive.",
+                        "Starting web development on the backend (PHP with Larvel, NodeJS, Python) I also become more and more of a frontend developer using modern framework like React, Angular or VueJS in a lot of projects. I love both worlds nowadays!",
+                        "I also build full-stack applications and acquired expert DevOps and cloud computing knoledge proven by the many AWS certifications I hold(incl. the top-level Solutions Architect Professional certification).",
+                        "As a self-taught developer I had the chance t broaden my horizon by studying Business Administration where I hold a Master's degree. That enabled me to work in a major strategy consultancy as well as a bank. While learning, that I enjoy development more than these fields, the time in this sector greatly improved my overall experience and skills"
+                    ] 
+                }/>   
+                <PeopleComment/>
+                <div className="provided-course-container">
+                    <div className="sub-provided-course-container">
+                        <ProvidedCourse/>
+                    </div>
+                </div>
             </div>
         </div>        
     </main>

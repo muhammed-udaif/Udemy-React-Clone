@@ -1,0 +1,193 @@
+.people-comment-container{
+    margin-bottom: 32px;
+}
+.comment-rating-head{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.comment-star{
+    margin-right: 4px;
+    inline-size: 24px;
+    block-size: 24px;
+}
+.comment-rate{
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+    max-inline-size: 722px;
+}
+.comment-dot{
+    margin: 0px 4px;
+    inline-size: 16px;
+    block-size: 16px;
+}
+.comment-rating-count{
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 20.0556px;
+    max-inline-size: 722px;
+}
+.comment-card-container{
+    position: relative;
+}
+.inside-commnet-card-container{
+    position: relative;
+    margin: 0px -16px;
+    padding: 0px 16px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+    scrollbar-width: none;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    grid-auto-columns: calc(100% - 32px);
+}
+.rated-comment-card{
+    min-inline-size: 1px;
+    scroll-snap-align: start;
+}
+.inside-rated-comment-card{
+    padding: 24px 16px 16px 16px;
+    border: 1px solid oklch(86.72% 0.0192 282.72deg);
+}
+.rated-comment-head-container{
+    display: flex;
+    margin-bottom: 16px;
+}
+.inside-rated-comment-head-container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.rated-comment-name-and-days-container{
+    display: flex;
+    flex-direction: column;
+}
+.rated-para-head{
+    max-inline-size: 1084px;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.rated-and-days-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+}
+.inside-rated-and-days-container{
+    display: inline-flex;
+    align-items: center;
+}
+.rated-five-star{
+    inline-size: 70px;
+    block-size: 16px;
+}
+.rated-commend-days{
+    margin-left: 4px;
+    color:oklch(48.09% 0.0371 279.08deg);
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+.comment-rounded-name-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    object-fit: cover;
+    color: #fff;
+    inline-size: 40px !important;
+    block-size: 40px !important;
+    background-color: oklch(20.35% 0.0139 285.09deg);
+    width: 48px;
+    height: 48px;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.rated-comment-discription-container{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    block-size: 220px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+}
+.rated-comment-like-container{
+    display: flex;
+    justify-content: space-between;
+}
+.inside-rated-comment-like-container{
+    display: flex;
+    align-items: center;
+}
+.rated-comment-helpfull{
+    color:oklch(48.09% 0.0371 279.08deg);
+    margin-right: 4px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.rated-like-dislike-container{
+    white-space: nowrap;
+}
+.rated-like-btn{
+    background-color: transparent;
+    margin: 0px -4px;
+    padding: 0px 6px;
+    inline-size: 34px;
+    min-inline-size: auto;
+    position: relative;
+    align-items: center;
+    border: none;
+    display: inline-flex;
+    max-inline-size: 100%;
+    justify-content: center;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.rated-like-btn-img{
+    inline-size: 20px;
+    block-size: 20px;
+}
+.rated-three-dot-container{
+    position: relative;
+}
+.rated-comment-three-dot-btn{
+    padding: 0px 10px;
+    margin: 0px -4px;
+    min-inline-size: auto;
+    background-color: transparent;
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    border: none;
+    display: inline-flex;
+    max-inline-size: 100%;
+    justify-content: center;
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
