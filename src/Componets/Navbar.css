@@ -192,6 +192,7 @@
 .udemy-business{
     display: none;
 }
+
 /* responsive site */
 @media screen and (min-width:800px){
     .navbar{

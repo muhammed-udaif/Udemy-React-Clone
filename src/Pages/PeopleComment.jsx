@@ -25,15 +25,16 @@ function PeopleComment() {
     {head:"Frederik S.", src:fiveStar, days:"a month ago", user:"FR", description:"Absolutely amazing course. Not only succeeded in retaining my attention but actually motivated me to finish the entire course."}
   ]
 
-  return (
+
+  return (                                                         
     <>
     <div className="people-comment-container">
         <div className="comment-rating-head">
             <img src={star} alt="comment-star" className='comment-star' />
-            <span className='comment-rate'>4.6</span>
+            <span className='comment-rate'>4.6 course rating</span>
             <img src={dot} alt="comment-dot" className='comment-dot' />
             <span className='comment-rating-count'>233k ratings</span>
-        </div>
+        </div>            
         <div>                                                  
             <section className='comment-card-container'>
                 <div className="inside-commnet-card-container">
@@ -78,8 +79,49 @@ function PeopleComment() {
                         </div>
                     </div>
                     ))}
-                </div>
+                </div>                                                          
             </section>
+        </div>          
+        <div className="extra-rated-comment-container">        
+            {commentItems.slice(0,4).map((item,index) =>(      
+            <div className="single-extra-rated-comment-container" key={index}>
+                <div className="single-extra-comment-head-section">
+                    <div className="extra-user-comment-rated-container">
+                        <div className="inside-extra-user-comment-rated-container">
+                            <p className='extra-container-user'>{item.head}</p>
+                            <div className="extra-rated-and-month-container">
+                                <span className='extra-rated-section'>
+                                    <img src={item.src} alt="extra-rated-img" className='extra-rated-img' />
+                                </span>
+                                <span className='extra-month-section'>{item.days}</span>
+                            </div>
+                        </div>
+                        <div className="comment-rounded-name-container">{item.user}</div>
+                    </div>
+                    <div className="rated-three-dot-container">
+                        <button className='rated-comment-three-dot-btn'>
+                            <img src={threedot} alt="extra-three-dot-img" className='rated-like-btn-img' />
+                        </button>
+                    </div>
+                </div>
+                <div className="extra-para-comment-rated-container rated-comment-discription-container">
+                    <span>{item.description}</span>
+                </div>
+                <div className="extra-like-dislike-container rated-comment-like-container">
+                    <div className="inside-rated-comment-like-container">
+                        <span className='rated-comment-helpfull'>Helpful?</span>
+                        <div className="rated-like-dislike-container">
+                            <button className='extra-like-btn rated-like-btn'>
+                                <img src={like} alt="extra-like-btn" className='rated-like-btn-img' />
+                            </button>
+                            <button className='extra-like-btn rated-like-btn'>
+                                <img src={dislike} alt="extra-dislike-btn" className='rated-like-btn-img' />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ))}
         </div>
     </div>
     </>

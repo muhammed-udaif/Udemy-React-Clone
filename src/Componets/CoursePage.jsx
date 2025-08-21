@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './CoursePage.css'
 import triangleArrow from '../assests/triangleArrow.svg'
 import playIcon from '../assests/play-icon.svg'
@@ -23,6 +23,7 @@ import user from '../assests/user.svg'
 import blackPlay from '../assests/blackPlay.svg'
 import PeopleComment from '../Pages/PeopleComment'
 import ProvidedCourse from '../Pages/ProvidedCourse'
+import Report from '../Pages/Report'
 
 function CoursePage() {
     const links = [
@@ -30,6 +31,19 @@ function CoursePage() {
         {head:"Programming Languages", src:triangleArrow},
         {head:"React JS", className:"development"}
     ]
+
+   const [couponScroll, setCouponScroll] = useState(false)
+
+   useEffect(() =>{
+    const handleCoupon = () =>{
+        setCouponScroll(window.scrollY > 519)
+    }
+     window.addEventListener("scroll", handleCoupon);
+
+     return () => window.removeEventListener("scroll", handleCoupon);
+
+   },[]);
+
   return (
     <>
     <main className="coursePage-container">
@@ -85,8 +99,8 @@ function CoursePage() {
                     </div>
                 </div>
                 <Premium/>
-                <CourseCoupon/>
-                <Coupon/>
+                <CourseCoupon />
+                <Coupon couponScroll={couponScroll}/>
             </div>
         </div>
         <div className="staight-separation-section"></div>
@@ -137,7 +151,25 @@ function CoursePage() {
                 <PeopleComment/>
                 <div className="provided-course-container">
                     <div className="sub-provided-course-container">
-                        <ProvidedCourse/>
+                        <ProvidedCourse
+                        author = "Academind by Maximilian Schwarzmüller"
+                        ProvideItem = {
+                            [
+                                {head:"Flutter & Dart - The Complete Guide[2025 Edition]",rating:"4.6",count:"(87,168)",hour:"30 total hours",lectures:"309 lectures",Price:"₹589",src:"https://img-c.udemycdn.com/course/100x100/1708340_7108_5.jpg"},
+                                {head:"Docker & Kubernetes: The Practical Guide [2025 Edition]", rating:"4.7",count:"(34,373)",hour:"23.5 total hours", lectures:"264 lectures", Price:"₹589", src:"https://img-c.udemycdn.com/course/100x100/3490000_d298_2.jpg"},
+                                {head:"NodeJS- The Complete Guide (MVC, REST APIs, GraphQL, Deno)",rating:"4.6",count:"(34,373)",hour:"40.5 total hours", lectures:"544 lectures", Price:"₹589", src:"https://img-c.udemycdn.com/course/100x100/1879018_95b6_3.jpg"}
+                            ]
+                        }/>
+                        <ProvidedCourse 
+                        author="Maximilian Schwarzmüller"
+                        ProvideItem= {
+                            [
+                                {head:"Angular - The Complete Guide (2025 Edition)",rating:"4.7",count:"(217,749)",hour:"56 total hours", lectures:"758 lectures", Price:"₹499",src:"https://img-c.udemycdn.com/course/100x100/756150_c033_4.jpg"},
+                                {head:"Flutter & Dart - The Complete Guide[2025 Edition]", rating:"4.6",count:"(87,168)",hour:"30 total hours", lectures:"309 lectures",Price:"₹589",src:"https://img-c.udemycdn.com/course/100x100/1708340_7108_5.jpg"},
+                                {head:"Docker & Kubernetes: The Practical Guide [2025 Edition]", rating:"4.7",count:"(34,373)",hour:"23.5 total hours", lectures:"264 lectures", Price:"₹589", src:"https://img-c.udemycdn.com/course/100x100/3490000_d298_2.jpg"}
+                            ]
+                        }/>
+                        <Report/>
                     </div>
                 </div>
             </div>

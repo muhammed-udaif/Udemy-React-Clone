@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react';
 import FilterButton from './Componets/FilterButton';
 import Navbar from './Componets/Navbar';
@@ -9,6 +9,7 @@ import Footer from './Componets/Footer';
 import FilterPanel from './Componets/FilterPanel';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import CoursePage from './Componets/CoursePage';
+import StickyNav from './Componets/StickyNav';
 
 function AppContent() {
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
@@ -28,7 +29,7 @@ function AppContent() {
     prev.filter(prev => prev !== selectPractice):
     [...prev,selectPractice]
   )
- }
+ }          
 
   const toggleButton = () =>{
     setIsOpenSidebar((prev) => !prev)
@@ -38,10 +39,25 @@ function AppContent() {
   }
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+  
+  const [stickyNav, setStickyNav] = useState(false)
+
+  useEffect(() =>{
+    const handleScroll = () =>{
+      setStickyNav(window.scrollY > 42)
+    }
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+    
+
+  },[]);
+              
   return (
-    <>
+    <>              
     <div className='container'>
      <Navbar toggleButton={toggleButton}/>
+     {stickyNav && <StickyNav/>}
      <Sidebar isOpen={isOpenSidebar} closeSidebar={() =>setIsOpenSidebar(false)}/>
      {isHomePage && (
       <>
@@ -50,7 +66,7 @@ function AppContent() {
      <FilterPanel filterOpen={openFilter} closeSidebar={() =>setOpenFilter(false)} isRating={isRating} isLanguage={isLanguage} isPractice={isPractice} isDuration={isDuration} isTopic={isTopic} isLevel={isLevel} isTitle={isTitle} isPrice={isPrice}
       setIsRating={setIsRating}  setIsLanguage={setIsLanguage} setIsPractice={setIsPractice} setIsDuration={setIsDuration} setIsTopic={setIsTopic} setLevel={setLevel} setTitle={setTitle} setPrice={setPrice}/>
       </>)}
-         <Routes>
+     <Routes>
         <Route path='/' element={<LearningCard isRating={isRating} isLanguage={isLanguage} isPractice={isPractice} isDuration={isDuration} isTopic={isTopic} isLevel={isLevel} isTitle={isTitle} isPrice={isPrice}/>}/>
         <Route path='/page/:pageId' element={<CoursePage/>} />
      </Routes>

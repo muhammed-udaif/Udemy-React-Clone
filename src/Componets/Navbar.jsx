@@ -8,7 +8,7 @@ import heart from '../assests/heart.svg'
 import bell from  '../assests/bell.svg'
 
 
-
+             
 
 function Navbar({toggleButton}) {
   const udemyItems =[
@@ -18,7 +18,7 @@ function Navbar({toggleButton}) {
       {icon:heart},
       {icon:cart},
       {icon:bell}
-  ]
+  ]                                                               
   return (
     <>
     <div className='navbar'>

@@ -114,7 +114,7 @@
     background-color: oklch(20.35% 0.0139 285.09deg);
     width: 48px;
     height: 48px;
-    font-family: 'font-1';
+    font-family: 'font-3';
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
@@ -170,7 +170,7 @@
     inline-size: 20px;
     block-size: 20px;
 }
-.rated-three-dot-container{
+.rated-three-dot-container{         
     position: relative;
 }
 .rated-comment-three-dot-btn{
@@ -190,4 +190,103 @@
     line-height: 1.2;
     letter-spacing: 0;
     font-size: 14px;
+}
+.extra-rated-comment-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.single-extra-rated-comment-container{
+    margin-right:16px ;
+    padding: 24px 0px;
+    inline-size: 284px;
+    border-block-start: 1px solid oklch(86.72% 0.0192 282.72deg);
+    border-block-end: none;
+    border-inline-start: none;
+    border-inline-end: none;
+}
+.single-extra-comment-head-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.extra-user-comment-rated-container{
+    display: flex;
+    justify-content: space-between;
+    flex: initial;
+}
+.inside-extra-user-comment-rated-container{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+.extra-container-user{
+    max-inline-size: 1084px;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 16px;   
+}
+.extra-rated-and-month-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+}
+.extra-rated-section{
+    display: inline-flex;
+    align-items: center;
+}
+.extra-rated-img{
+    inline-size: 70px;
+    block-size: 16px;
+}
+.extra-month-section{
+    margin-left: 4px;
+    color: oklch(48.09% 0.0371 279.08deg);
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+.comment-rounded-name-container{
+    margin-right: 16px;
+    order: 1;   
+}
+.extra-para-comment-rated-container{
+    block-size: 110p;
+}
+.extra-like-dislike-container{
+    margin-top: 16px;
+}
+.extra-like-btn{
+    margin-right: 4px;
+    block-size: 34px;
+} 
+.extra-rated-comment-container{
+    display: none;
+}
+/* responsive section */
+@media screen and (min-width:768px) {
+    .comment-card-container{
+        display: none;
+    }
+    .extra-rated-comment-container{
+        display: flex;
+    }
+    .comment-rate, .comment-rating-count{
+        font-family: 'font-3';
+    }
+}
+@media screen and (min-width:1440px) {
+    .comment-rating-head{
+        margin-bottom: 24px;
+        /* font-size: 16px; */
+    }
+    .comment-rate, .comment-rating-count{
+        font-size: 24px;
+    }
+
 }

@@ -3,7 +3,7 @@
 }
 .head-of-provided-course{
     max-inline-size: 1084px;
-    font-family: 'font-1';
+    font-family: 'font-3';
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
@@ -39,7 +39,7 @@
 .provided-real-img{
     display: block;
     inline-size: 100%;
-    /* block-size: 60px; */
+    block-size: 50px;
 }
 .provided-description-container{
     color:oklch(29.74% 0.0362 281.74deg);
@@ -49,7 +49,7 @@
     max-inline-size: 1084px;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-family: 'font-1';
+    font-family: 'font-3';
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0;
@@ -62,4 +62,117 @@
     font-weight: 400;
     line-height: 1.4;
     font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:oklch(48.09% 0.0371 279.08deg);
+}
+.provided-course-rating-and-people-count{
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.provided-course-ratings-container{
+    display: inline-flex;
+    align-items: center;
+}
+.digital-rating-count{
+    margin-right: 4px;
+    color:oklch(46.68% 0.1161 51.53deg);
+    font-family: 'font-1';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.provided-four-star-img{
+    inline-size: 70px;
+    block-size: 16px;
+}
+.provided-course-people-count{
+    color:oklch(48.09% 48.09%  0.0371 279.08deg) ;
+    margin-left: 4px;
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.provided-hours-and-lecture-container{
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inside-provided-hours-lecture-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: oklch(48.09% 0.0371 279.08deg);
+    font-family: 'font-1';
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.provided-total-hour{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.provided-total-lectures{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.provided-total-lectures::before, .provided-levels::before{
+    content: '●';
+    margin: 0px 4px;
+    font-size: 6px;
+}
+.provided-levels{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.provided-price-container{
+    margin-bottom: 4px;
+}
+.inside-provided-price-container{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    color:oklch(29.74% 0.0362 281.74deg);
+}
+.provide-price{
+    margin-left: 8px;
+    padding: 4px 0px;
+    line-height: 1;
+    font-family: 'font-1';
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.provided-nothing-section-container{
+    display: flex;
+    margin: 8px 0px 4px 0px;
+}
+.inside-provided-nothing-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 4px;
+}
+/* responsive section */
+@media screen and (min-width:768px) {
+    .head-of-provided-course{
+        font-size: 21.5111px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .head-of-provided-course{
+        font-size: 22.4593px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .head-of-provided-course{
+        font-size: 24px;
+    }
 }

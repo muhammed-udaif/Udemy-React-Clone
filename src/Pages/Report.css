@@ -1,0 +1,27 @@
+.report-full-container{
+    margin-bottom: 32px;
+    border-block-start: 1px solid oklch(86.72% 0.0192 282.72deg);
+    padding: 16px 0px;
+}
+.sub-report-full-container{
+    display: flex;
+    flex-direction: column;
+}
+.report-abuse{
+    block-size: 40px;
+    position: relative;
+    align-items: center;
+    color:oklch(48.41% 0.2342 293.93deg);
+    border: 1px solid oklch(48.41% 0.2342 293.93deg);
+    background-color: transparent;
+    display: inline-flex;
+    max-inline-size: 100%;
+    min-inline-size: 80px;
+    padding: 0px 12px;
+    justify-content: center;
+    font-family: 'font-3';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-size: 14px;
+}                                                                                                                  

@@ -38,6 +38,7 @@ function Coupon() {
           {/* <div className="mobile-section-couse-coupon-container">
           <CourseCoupon   />
           </div> */}
+          
           <div className="below-play-coupon-container">
             <div className="personal-tearm-coupon-container">
               <div className='inside-personal-tearm-coupon'>
@@ -51,6 +52,7 @@ function Coupon() {
               <SubscriptionCoupon/>
             </div>
           </div>
+        
         </div>          
       </div>
     </div>
@@ -60,3 +62,7 @@ function Coupon() {
 }
 
 export default Coupon
+
+
+
+// ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
