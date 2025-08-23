@@ -3,6 +3,7 @@ import './LearningCard.css'
 import './FilterButton.css'
 import star from  '../assests/star.svg'
 import explamation from '../assests/expalmation.svg'
+import { Link } from 'react-router-dom'
 
 
 function LearningCard({isRating, isLanguage, isPractice, isDuration, isTopic, isLevel, isTitle , isPrice}) {
@@ -48,12 +49,13 @@ function LearningCard({isRating, isLanguage, isPractice, isDuration, isTopic, is
              const matchPrice = isPrice.length === 0 || isPrice.includes(cardItem.priceStatus);
              return matchRating && matchLanguage && matchPractice && matchDuration && matchTopic && matchLevel && matchTitle && matchPrice;
         })
-  return (
-    <>
+  return (  
+    <>                          
     <main className='main-container filter-full-container'>
         <div className="sub-main-container">
                 <div className="sub-grid-container">
                     {filteredCourse.map((item,index) =>(
+                        <Link to={`/page/${item.id}`} key={index} className='card-container'>
                         <div className="card-container" key={index}>
                         <div className="card-sub-container">
                             <section className='card-section-container'>
@@ -122,6 +124,7 @@ function LearningCard({isRating, isLanguage, isPractice, isDuration, isTopic, is
                             </section>
                         </div>
                     </div>
+                    </Link>
                     ))}
                     {/* <div className="margin-section"></div> */}
                     <div className="related-search-container">
@@ -143,6 +146,7 @@ function LearningCard({isRating, isLanguage, isPractice, isDuration, isTopic, is
                         </div>
                     </div>
                 </div>
+                
         </div>
     </main>
     </>

@@ -3,7 +3,7 @@ import './Footer.css'
 import footerArrow from '../assests/footer-arrow.svg'
 import globe from '../assests/global.svg'
 
-function Footer() {
+function Footer({}) {
 
   const [size, setSize] = useState(false)
 

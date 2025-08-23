@@ -1,27 +1,18 @@
 import React from 'react'
 import './Coupon.css'
 import playIcon from '../assests/play-icon.svg'
-import CourseCoupon from './CourseCoupon'
-import borderTick from '../assests/border-tick.svg'
-import heart from '../assests/heart.svg'
 import SubscriptionCoupon from './SubscriptionCoupon'
 
 
-function Coupon() {
-
-  const shareCoupon = [
-    {head:"Share"},
-    {head:"Gift this course"},
-    {head:"Apply coupon"}
-]
-
-  return (
+function Coupon({couponScroll}) {                                                                                                                                             
+  return (    
     <>
-    <div className="coupon-top-container">
+    <div className={`coupon-top-container ${couponScroll ? "sticky-fixed" : ""}`} >
       <div className="coupon-section-container">
         <div className="full-coupon-container">
-          <div>
-            <div className="coupon-img-container">
+          <div>           
+            {couponScroll ? "" :
+            <div className={`coupon-img-container`}>
               <div className="inside-coupon-img-container">
                  <button className='coupon-play-container'>
                   <span className='coupon-image-section'>
@@ -33,13 +24,10 @@ function Coupon() {
                     <span className='preview-course'>Preview this course</span>
                  </button>
               </div>
-            </div>
+            </div>  
+            }                                                         
           </div>
-          {/* <div className="mobile-section-couse-coupon-container">
-          <CourseCoupon   />
-          </div> */}
-          
-          <div className="below-play-coupon-container">
+          <div className={`below-play-coupon-container `}>
             <div className="personal-tearm-coupon-container">
               <div className='inside-personal-tearm-coupon'>
                 <div className="personal-coupon">
@@ -64,5 +52,4 @@ function Coupon() {
 export default Coupon
 
 
-
-// ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+                                                                           

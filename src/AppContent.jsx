@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useState } from 'react';
 import FilterButton from './Componets/FilterButton';
 import Navbar from './Componets/Navbar';
@@ -49,9 +49,9 @@ function AppContent() {
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-    
-
   },[]);
+
+
               
   return (
     <>              
@@ -68,9 +68,9 @@ function AppContent() {
       </>)}
      <Routes>
         <Route path='/' element={<LearningCard isRating={isRating} isLanguage={isLanguage} isPractice={isPractice} isDuration={isDuration} isTopic={isTopic} isLevel={isLevel} isTitle={isTitle} isPrice={isPrice}/>}/>
-        <Route path='/page/:pageId' element={<CoursePage/>} />
+        <Route path='/page/:id' element={<CoursePage />} />
      </Routes>
-     <Footer/>
+     <Footer />
     </div>
     </>
   );

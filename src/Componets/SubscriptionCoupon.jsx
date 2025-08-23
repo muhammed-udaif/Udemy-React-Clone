@@ -1,8 +1,13 @@
 import React from 'react'
 import borderTick from '../assests/border-tick.svg'
 import heart from '../assests/heart.svg'
+import { useParams } from 'react-router-dom'
+import courseData from '../Data/courseData'
 
 function SubscriptionCoupon() {
+
+    const { id } = useParams();
+    const course = courseData.find(item => item.id === parseInt(id));
 
     const shareCoupon = [
         {head:"Share"},
@@ -41,7 +46,7 @@ function SubscriptionCoupon() {
                                 <div className="price-cart-container">
                                     <div className="price-container">
                                         <div className="inside-price-container">
-                                            <div className="price-item">₹549</div>
+                                            <div className="price-item">{course.couponPrize}</div>
                                         </div>
                                     </div>
                                     <div className="add-cart-container">

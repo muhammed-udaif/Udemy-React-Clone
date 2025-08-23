@@ -1,14 +1,7 @@
 import React from 'react'
 import '../Pages/Topic.css'
 
-function Topic() {
-
-    const exploreTopic = [
-        {head:"React JS"},
-        {head:"Programming Languages"},
-        {head:"Development"}
-    ]
-
+function Topic({exploreTopic}) {
   return (
     <>
      <div className="topic-container">

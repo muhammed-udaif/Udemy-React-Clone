@@ -4,14 +4,8 @@ import upArrow from '../assests/upArrow.svg'
 import dot from '../assests/dot.svg'
 import downArrow from '../assests/downarrow.svg'
 
-function Requirement() {
+function Requirement({requirementItems}) {
  
-    const requirementItems = [
-        {head:"JavaScript + HTML + CSS fundamentals are absolutely required"},
-        {head:"You DON'T need to be a JavaScript expert to succeed in this course!"},
-        {head:"ES6 + JavaScipt knowledge is beneficial but not a must-have"},
-        {head:"NO prior React or any other JS framework experience is required"}
-    ]
     const [showRequirement, setShowRequirement] = useState(true)
 
   return (     

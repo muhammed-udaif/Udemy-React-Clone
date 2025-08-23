@@ -1,15 +1,8 @@
 import React from 'react'
 import './CourseCoupon.css'
-import borderTick from '../assests/border-tick.svg'
-import heart from '../assests/heart.svg'
 import SubscriptionCoupon from './SubscriptionCoupon'
 
 function CourseCoupon() {
-    const shareCoupon = [
-        {head:"Share"},
-        {head:"Gift this course"},
-        {head:"Apply coupon"}
-    ]
   return (
     <>
     <div className="course-coupon-container">

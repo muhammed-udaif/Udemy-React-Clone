@@ -1,17 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import '../Pages/CourseInclude.css'
-import curly from '../assests/curly.svg'
-import downloads from '../assests/downloads.svg'
-import fullsection from '../assests/fullSection.svg'
-import mobile from '../assests/mobile.svg'
-import notes from '../assests/notes.svg'
-import notesNew from '../assests/notes-1.svg'
-import prize from '../assests/prize.svg'
-import subtittle from '../assests/subtittle.svg'
-import tvPlay from '../assests/tvplay.svg'
 
 
-function CourseInclude() {
+function CourseInclude({includedItems}) {
 
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768)
 
@@ -23,17 +14,6 @@ function CourseInclude() {
 
         return () => window.removeEventListener("resize", handleResize)
     }, [])
-    const includedItems = [
-        {head:"71 hours on-demand video", src:tvPlay},
-        {head:"37 coding exercises", src:fullsection},
-        {head:"Assignments", src:notes},
-        {head:"48 articles", src:notesNew},
-        {head:"62 downloadable resources", src:downloads},
-        {head:"Access on mobile and TV", src:mobile},
-        {head:"Full lifetime access", src:curly},
-        {head:"Closed captions", src:subtittle},
-        {head:"Certificate of completion", src:prize}
-    ]
 
     const filterCourseItem = isDesktop ? includedItems.filter(item => item.head !== "Full lifetime access") : includedItems;
     

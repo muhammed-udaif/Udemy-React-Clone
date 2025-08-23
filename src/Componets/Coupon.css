@@ -64,7 +64,6 @@
 }
 .below-play-coupon-container{
     padding: 24px;
-    position: sticky;
 }
 .personal-tearm-coupon-container{
     margin-block-start: -24px;
@@ -105,15 +104,21 @@
 .tearm-coupon-btn{
     flex: 1 1 auto;
 }
-.below-play-coupon-container{
+.sticky-fixed{
+    position: fixed;
+    top: 14px;
+    z-index: 1000;
+    background-color: #fff;
+}
+.image-hide{
     display: none;
 }
+/* .below-play-coupon-container{
+    display: none;
+} */
 .coupon-top-container{
     display: none;
-}
-
-
-
+}        
 /* responsive section  */
       
 @media screen and (min-width:1440px) {
@@ -127,3 +132,4 @@
         display: block;
     }
 }
+                                                                                                                              

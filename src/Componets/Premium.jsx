@@ -3,8 +3,14 @@ import './Premium.css'
 import borderTick from '../assests/border-tick.svg'
 import rating from '../assests/star-1.svg'
 import user from '../assests/user.svg'
+import couseData from '../Data/courseData'
+import { useParams } from 'react-router-dom'
 
 function Premium() {
+
+  const { id } = useParams();
+  const course = couseData.find(item => item.id === parseInt(id))
+
   return (
     <>
     <div className="premium-container">
@@ -24,7 +30,7 @@ function Premium() {
         <div className="straight-line"></div>
         <div className="rating-count-container">
             <div className="inside-rating-count-container">
-                <span className='inside-premium-rating'>4.6</span>
+                <span className='inside-premium-rating'>{course.PremiumRating}</span>
                 <span className='inside-star-rating'>
                   <img src={rating} alt="rating" className='above-four-rating' />
                 </span>

@@ -1,20 +1,9 @@
 import React, { useState } from 'react'
 import '../Pages/Instructure.css'
-import blackShadedStar from '../assests/blackShaded-star.svg'
-import grade from '../assests/grade.svg'
-import user from '../assests/user.svg'
-import blackPlay from '../assests/blackPlay.svg'
 import upArrow from '../assests/upArrow.svg'
 import downArrow from '../assests/downarrow.svg'
 
 function Instructure({mainHead,head,role,instructorList,description}) {
-    
-   const instructorItem = [
-    {src:blackShadedStar, head:"4.6 Instructor Rating"},
-    {src:grade, head:"808,761 Reviews"},
-    {src:user, head:"3,363,355 Students"},
-    {src:blackPlay, head:"48 Courses"}
-   ]
 
    const [showInstructor, setShowInstructor] = useState(false)
           
