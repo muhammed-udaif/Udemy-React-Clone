@@ -3,8 +3,7 @@ import './Coupon.css'
 import playIcon from '../assests/play-icon.svg'
 import SubscriptionCoupon from './SubscriptionCoupon'
 
-
-function Coupon({couponScroll}) {                                                                                                                                             
+function Coupon({couponScroll, course}) {  
   return (    
     <>
     <div className={`coupon-top-container ${couponScroll ? "sticky-fixed" : ""}`} >
@@ -16,7 +15,7 @@ function Coupon({couponScroll}) {
               <div className="inside-coupon-img-container">
                  <button className='coupon-play-container'>
                   <span className='coupon-image-section'>
-                    <img src="https://img-c.udemycdn.com/course/240x135/1362070_b9a1_2.jpg" alt="coupon-img-play" className='coupon-img-play' />
+                    <img src={course.desktopSrc} alt="coupon-img-play" className='coupon-img-play' />
                   </span>
                   <span className='play-icon'>
                         <img src={playIcon} alt="play-icon" className='play-icon-img' />

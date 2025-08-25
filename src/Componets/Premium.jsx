@@ -3,14 +3,8 @@ import './Premium.css'
 import borderTick from '../assests/border-tick.svg'
 import rating from '../assests/star-1.svg'
 import user from '../assests/user.svg'
-import couseData from '../Data/courseData'
-import { useParams } from 'react-router-dom'
 
-function Premium() {
-
-  const { id } = useParams();
-  const course = couseData.find(item => item.id === parseInt(id))
-
+function Premium({course}) {
   return (
     <>
     <div className="premium-container">

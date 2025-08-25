@@ -10,7 +10,7 @@ function ProvidedCourse({ProvideItem,author}) {
      <h2 className='head-of-provided-course'>More Courses by <a className='change-color-head'>{author}</a></h2>
      <div>
         {ProvideItem.map((item,index) =>(
-        <span className='single-provided-course-container' >
+        <span className='single-provided-course-container' key={index} >
             <div className="inside-the-course-container">
                 <div className="provided-img-and-description-container">
                     <div className="provided-img-container">
@@ -23,7 +23,7 @@ function ProvidedCourse({ProvideItem,author}) {
                             </div>
                         </div>
                         <div className="provided-course-author-container">
-                            Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller
+                            {item.discriptionAuthor}
                         </div>
                         <div className="provided-course-rating-and-people-count">
                             <span className='provided-course-ratings-container'>

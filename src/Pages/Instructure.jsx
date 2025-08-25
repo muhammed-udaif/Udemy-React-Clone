@@ -3,7 +3,7 @@ import '../Pages/Instructure.css'
 import upArrow from '../assests/upArrow.svg'
 import downArrow from '../assests/downarrow.svg'
 
-function Instructure({mainHead,head,role,instructorList,description}) {
+function Instructure({mainHead,head,role,instructorList,description,instructorSrc}) {
 
    const [showInstructor, setShowInstructor] = useState(false)
           
@@ -19,7 +19,7 @@ function Instructure({mainHead,head,role,instructorList,description}) {
             </div>
             <div className="online-educator-picture-containig-container">
                 <a className='educator-img-section'>
-                    <img src="https://img-c.udemycdn.com/user/200_H/31926668_94e7_6.jpg" alt="Maximilian-img" className='maximilian-img' />
+                    <img src={instructorSrc} alt="Maximilian-img" className='maximilian-img' />
                 </a>
                 <ul className='unordered-list-of-educator'>
                     {instructorList.map((item,index) => (
