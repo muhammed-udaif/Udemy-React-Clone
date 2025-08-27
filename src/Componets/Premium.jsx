@@ -29,13 +29,13 @@ function Premium({course}) {
                   <img src={rating} alt="rating" className='above-four-rating' />
                 </span>
             </div>
-            <a className='people-rated'>232,874 ratings</a>
+            <a className='people-rated'>{course.PremiumRatingCount} ratings</a>
         </div>
         <div className="straight-line-second"></div>
         <div className="people-count-container">
             <div className="inside-people-count">
                 <img src={user} alt="user-img" className='bordered-explamation user-img' />
-                <span className='people-count'>978,388</span>
+                <span className='people-count'>{course.premiumCount}</span>
             </div>
             <span className='learners'>learners</span>
         </div>
@@ -44,5 +44,5 @@ function Premium({course}) {
     </>
   )
 }
-
+    
 export default Premium
