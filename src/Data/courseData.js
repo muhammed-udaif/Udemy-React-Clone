@@ -3065,39 +3065,32 @@ const course = [
     }, 
     {
         id:22,
-        src:"",
-        desktopSrc:"",
-        mainHead:"",
-        subHead:"",
-        firstCreator:"",
-        updated: "Last updated 7/2025",
-        PremiumRating:"4.4",
-        PremiumRatingCount:"22,357 ratings",
-        premiumCount:"144,267",
-        couponPrize:"₹549",
+        src:"https://img-c.udemycdn.com/course/750x422/1436092_2024_4.jpg",
+        desktopSrc:"https://img-c.udemycdn.com/course/240x135/1436092_2024_4.jpg",
+        mainHead:"React Native - The Practical Guide [2025]",
+        subHead:"Use React Native and your React knowledge to build native iOS and Android Apps - incl.Push Notifications, Hooks, Redux",
+        firstCreator:"Academind by Maximilian Schwarzmuller",
+        updated: "Last updated 8/2025",
+        PremiumRating:"4.6",
+        PremiumRatingCount:"44,404 ratings",
+        premiumCount:"250,605",
+        couponPrize:"₹629",
         learnContent: [
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:``},
-            {head:""},
-            {head:""},
-            {head:""}
+            {head:"Learn how to use ReactJS to build real native mobile apps for iOS and Android"},
+            {head:"Explore React Native basics and advanced features!"},
+            {head:"Develop cross-platform (iOS and Android) mobile apps without knowing Swift, ObjectiveC or Java/ Android"},
+            {head:"Learn how to use key mobile app features like Google maps or the device camera"},
         ],    
         exploreTopic: [
-            {head:"React JS"},
-            {head:"Redux Framework"},
-            {head:"React Router"},
-            {head:"Web Development"},
-            {head:"Firebase"}
+            {head:"React Native "},
+            {head:"Mobile Development"},
+            {head:"Development"}
         ],
         includedItems: [
             {head:"Role Play", src:user},
-            {head:"35 hours on-demand video", src:tvPlay},
-            {head:"5 articles", src:notesNew},
-            {head:"2 downloadable resources", src:downloads},
+            {head:"28.5 hours on-demand video", src:tvPlay},
+            {head:"16 articles", src:notesNew},
+            {head:"67 downloadable resources", src:downloads},
             {head:"Access on mobile and TV", src:mobile},
             {head:"Certificate of completion", src:prize}
         ],
@@ -3114,21 +3107,21 @@ const course = [
             {welcome:{tittle:"Handling Hover Events",duration:"5:10"}, react:{tittle:"How to Split a UI Into Components",duration:"8:31"},vannilla:{tittle:"Splitting Components in Practice",duration:"4:37"},editing:{tittle:"Component Categories",duration:"10:10"}, about:{tittle:"Prop Drilling",duraiton:"4:10"}}
         ],  
         javascriptHead: [
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""}
+            {head:"Getting Started"},
+            {head:"React Native Basics [ COURSE GOALS APP]"},
+            {head:"Debugging React Native Apps (Intoduction)"},
+            {head:"Diving Deeper into Components, Layouts & Styling -Building a Mini-Game App"},
+            {head:"Building Adaptive User Interfaces (Adapt to Platform & Device Sizes)"},
+            {head:"React Native Navigation with React Navigation [MEALS APP]"},
+            {head:"App- wide State Management with Redux & Context API"},
+            {head:"Time to Practice - The Expense Tracker App"},
+            {head:"Handling User Input"},
+            {head:"Sending HTTP Requests"}
         ],     
         requirementItems: [
-            {head:"No React experience necessary! I take you from beginner to expert!"},
-            {head:"Basic understanding of JavaScript is required (this course contains a quick JavaScript review section)"},
-            {head:"Any computer and OS will work - Windows, macOs or Linux"}
+            {head:"React knowledge is a must (but you absolutely DON'T have to be an expert)"},
+            {head:"JavaScript knowledge is a must, next-gen JavaScript knowledge (ie,ES6+) is recommended"},
+            {head:"NO Android/ Java or iOS (Swift, ObjectiveC) development experience is required"}
         ],
         courseInclude: [
             {head:"You just finished learning JavaScipt and are looking for your next step!"},
@@ -3147,30 +3140,30 @@ const course = [
             "With this in mind, I disigned the ideal curriculum for this course a unique blend of real world projects, deep explanations, and theory lectures, to turn you into a confident React and Next.js developer in just a couple weeks."
         ],
         broughtItems: [
-            {head:"Complete React, Next.js & TypeScipt Projects Course...",seller:"Bestseller",hour:"109 total hours",update:"Updated 8/2025",rating:"4.7",people:"76,789",price:"₹3,999",src:"https://img-c.udemycdn.com/course/50x50/2018828_41a9_3.jpg"},
-            {head:"Next.js Ecommerce 2025- Shopping Platform From...",seller:"Premium",hour:"22.5 total hours",update:"Updated 2/2025",rating:"4.7",people:"7,182",price:"₹3,009",src:"https://img-c.udemycdn.com/course/50x50/6347145_b715.jpg"},
-            {head:"React JS Masterclass: Zero To Job Ready With 10 Projects",seller:"Bestseller",hour:"35 total hours",update:"Updated 7/2025",rating:"4.4",people:"13,303",price:"₹3,889",src:"https://img-c.udemycdn.com/course/50x50/5042208_7db9_3.jpg"},
-            {head:"React Native - The Practical Guide [2025]",seller:"Bestseller",hour:"28.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"250,425",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/1436092_2024_4.jpg"},
-            {head:"100 Hours Web Development Bootcamp - Build 23 React...",seller:"Premium",hour:"128.5 total hours",update:"Updated 7/2025",rating:"4.7",people:"6,854",price:"₹799",src:"https://img-c.udemycdn.com/course/50x50/6375895_c850_2.jpg"},
-            {head:"React- The Complete Guide 2025(incl.Next.js, Redux)",seller:"Bestseller",hour:"71.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"980,275",price:"₹3,779",src:"https://img-c.udemycdn.com/course/50x50/1362070_b9a1_2.jpg"},
-            {head:"Next.js 15 & React - The Complete Guide",seller:"Bestseller",hour:"40.5 total hours", update:"Updated 1/2025",rating:"4.7",people:"147,673",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/3873464_403c_3.jpg"},
             {head:"The Complete Full-Stack Web Develompment Bootcamp",seller:"Bestseller",hour:"61.5 total hours",update:"2/2025",rating:"4.7",people:"1,488,556",price:"₹3,089",src:"https://img-c.udemycdn.com/course/100x100/1565838_e54e_18.jpg"},
+            {head:"React- The Complete Guide 2025(incl.Next.js, Redux)",seller:"Bestseller",hour:"71.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"980,275",price:"₹3,779",src:"https://img-c.udemycdn.com/course/50x50/1362070_b9a1_2.jpg"},
+            {head:"React Native - The Practical Guide [2025]",seller:"Bestseller",hour:"28.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"250,425",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/1436092_2024_4.jpg"},
+            {head:"Next.js Ecommerce 2025- Shopping Platform From...",seller:"Premium",hour:"22.5 total hours",update:"Updated 2/2025",rating:"4.7",people:"7,182",price:"₹3,009",src:"https://img-c.udemycdn.com/course/50x50/6347145_b715.jpg"},
+            {head:"Complete React, Next.js & TypeScipt Projects Course...",seller:"Bestseller",hour:"109 total hours",update:"Updated 8/2025",rating:"4.7",people:"76,789",price:"₹3,999",src:"https://img-c.udemycdn.com/course/50x50/2018828_41a9_3.jpg"},
+            {head:"100 Hours Web Development Bootcamp - Build 23 React...",seller:"Premium",hour:"128.5 total hours",update:"Updated 7/2025",rating:"4.7",people:"6,854",price:"₹799",src:"https://img-c.udemycdn.com/course/50x50/6375895_c850_2.jpg"},
+            {head:"Next.js 15 & React - The Complete Guide",seller:"Bestseller",hour:"40.5 total hours", update:"Updated 1/2025",rating:"4.7",people:"147,673",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/3873464_403c_3.jpg"},
+            {head:"React JS Masterclass: Zero To Job Ready With 10 Projects",seller:"Bestseller",hour:"35 total hours",update:"Updated 7/2025",rating:"4.4",people:"13,303",price:"₹3,889",src:"https://img-c.udemycdn.com/course/50x50/5042208_7db9_3.jpg"},
         ],         
         profile: [
             {
                 id:1,
                 instructorHead:"Instructors",
-                instructorSubHead:"",
-                role:"",
+                instructorSubHead:"Academind by Mazimilian Schwarzmuller",
+                role:"Online Education",
                 instructorList: [
-                    {src:blackShadedStar, head:"4.5 Instructor Rating"},
-                    {src:grade, head:"9,504 Reviews"},
-                    {src:user, head:"76,104 Students"},
-                    {src:blackPlay, head:"18 Courses"}
+                    {src:blackShadedStar, head:"4.6 Instructor Rating"},
+                    {src:grade, head:"810,191 Reviews"},
+                    {src:user, head:"3,369,328 Students"},
+                    {src:blackPlay, head:"48 Courses"}
                 ],
-                instructorSrc:"",
+                instructorSrc:"https://img-c.udemycdn.com/user/200_H/31926668_94e7_6.jpg",
                 about: [
-                    "Hi, I'm Shubham I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
+                    "Hi, I'm Maximilian Schwarzmuller I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
                     "I'm a full-stack web developer and designer with a passion for building beautiful web interface from scratch. I've been building websites and apps since 2010 and also have a Master's degree in Engineering.",
                     "I discovered my passion for teaching and helping others by sharing everything I knew during college. This passion led me to Udemy in 2015, where I now have the privillage of trainig 2,000,000+ learners in the field of web development",
                     "What learners love the most about all my course is the fact that i take the time to explain every single concept in a way that everyone can easily understand",
@@ -3179,66 +3172,62 @@ const course = [
             }
         ],  
         commentItems: [
-            {head:"Yossed W.",src:fourStar, days:"2 weeks ago", user:"YW", description:"The course is really amazing but the section redux very difficult to understant Otherwise, there is no doubt about it."},
-            {head:"Simon B.", src:fourStar, days:"4 months ago", user:"SB", description:"Really enjoyed the couse, very comprehensive and I learnt a lot about React. NextJS and just coding in general. Only negative is that some parts are outstand which did cause a few problems along the way. Although this is not something that is specifically Jonas fault. As with all things tech, new versions of this or that are relaesed all the time and the code needs to be modified ot altered. One good addition that could be made to this course is an extra section on React v19 now that it is out and stable. Thank you."}, 
             {head:"Abdul Waris S.", src:fourStar, days:"a week ago", user:"AS",description:"Good course for someone who has a lot of time to watch and practice it. Try to watch is at 1.5x speed since the speech is slow."},
-            {head:"Vivek Kumar S.",src:fiveStar,days:"5 week ago", user:"VS",description:"Thanks Jonas for creating such a great couse I'm grateful to say thar I've completed the entire 85 hour long course by watching every lecture. Looking ahead. I'd love to see you create a course on Data stuctures and Algorithms(DSA) as well. I know there are many DSA courses availabel in the market but honestly, none of them are truly good. I'm pretty sure you would create the best one out there!"},
             {head:"Shubham B.", src:fourStar,days:"a month ago", user:"SB",description:"Thank you Jonas for your course, I landed an Internship with this course. To the people out there considering this course, yes you should close your eyes and pick this course. This course is structured and deep. It will teach you all the neccessary libraries also, take Router, Redux, React Query, NextJs also. My only advice stay away from tutorial hell, and keep making projects, writing code yourself only."},
             {head:"Ahamed Mohammed A.",src:fiveStar, days:"2 days ago", user:"AA", description:"Took me around 3 month to finish but damn, such a long journey since im working full time next to it, i learned alot as always a course from Jonas is always an amazing course. Thank you big time"},
-            {head:"Atefeh N.",src:fiveStar,days:"3 days ago",user:"AN",description:"The best course ever!! including tones of useful tutorials incliding in many real use cases in React and Next.js world."},
             {head:"Oleksii P.",src:fiveStar,days:"4 days ago",user:"OP",description:"Great course to get acquainted with frontend developement in general and React and Next.js in particular Be prepare to learn and practice much more on your own, but this course will definitely give you some foundation for this."},
-            {head:"Youssef S.", src:fiveStar, days:"6 days ago", user:"YS",description:"I am very happy with this course and very sad that I have to end this exicting journey  so thank you so much for the really clear concepts and in-depth sections. Thank you very much Jonas"},
-            {head:"Pablo Sebastian P.", src:fiveStar, days:"a month ago", user:"PP", description:"shubham es um excelente profesor que sabe expocar bien el contenido yte da motivacion para seguir avanzandol Super recomendado para cualquier nivel.Muchas gracias!"},
             {head:"Suraj C.", src:fiveStar, days:"a week ago", user:"SC",description:"The best course that there is out there. With so many different projects and technologies arranged perfectly to build upon, and also the content delivery was a masterpiece"},
             {head:"Adriano C.", src:fourStar, days:"2 months ago", user:"AD", description:"The course is decently up to date, and many of the problems you might have during development, can be solved by cheking the Q&A section. Thankds Jonas!"},
+            {head:"Simon B.", src:fourStar, days:"4 months ago", user:"SB", description:"Really enjoyed the couse, very comprehensive and I learnt a lot about React. NextJS and just coding in general. Only negative is that some parts are outstand which did cause a few problems along the way. Although this is not something that is specifically Jonas fault. As with all things tech, new versions of this or that are relaesed all the time and the code needs to be modified ot altered. One good addition that could be made to this course is an extra section on React v19 now that it is out and stable. Thank you."}, 
+            {head:"Vivek Kumar S.",src:fiveStar,days:"5 week ago", user:"VS",description:"Thanks Jonas for creating such a great couse I'm grateful to say thar I've completed the entire 85 hour long course by watching every lecture. Looking ahead. I'd love to see you create a course on Data stuctures and Algorithms(DSA) as well. I know there are many DSA courses availabel in the market but honestly, none of them are truly good. I'm pretty sure you would create the best one out there!"},
+            {head:"Pablo Sebastian P.", src:fiveStar, days:"a month ago", user:"PP", description:"shubham es um excelente profesor que sabe expocar bien el contenido yte da motivacion para seguir avanzandol Super recomendado para cualquier nivel.Muchas gracias!"},
+            {head:"Atefeh N.",src:fiveStar,days:"3 days ago",user:"AN",description:"The best course ever!! including tones of useful tutorials incliding in many real use cases in React and Next.js world."},
+            {head:"Youssef S.", src:fiveStar, days:"6 days ago", user:"YS",description:"I am very happy with this course and very sad that I have to end this exicting journey  so thank you so much for the really clear concepts and in-depth sections. Thank you very much Jonas"},
+            {head:"Yossed W.",src:fourStar, days:"2 weeks ago", user:"YW", description:"The course is really amazing but the section redux very difficult to understant Otherwise, there is no doubt about it."},
         ],   
         providedCourseSection: [
             {
                 id:1,
-                author:"",
+                author:"Academind by Maximilian Schawarzmuller",
                 ProvideItem: [
-                    {head:"",rating:"4.3",count:"(609)",hour:"21 total hours",lectures:"130 lectures", Price:"₹3,779",src:""},
-                    {head:"", rating:"4.7",count:"(2,427)",hour:"12 total hours",lectures:"74 lectures",Price:"₹3,289",src:""},
-                    {head:"", rating:"4.5",count:"(1,624)",hour:"20 total hours", lectures:"122 lectures", Price:"₹3,779",src:""}
+                    {head:"React - The Complete Guide 2025",discriptionAuthor:"Academind by Maximilian Schawarzmuller",rating:"4.3",count:"(609)",hour:"21 total hours",lectures:"130 lectures", Price:"₹3,779",src:"https://img-c.udemycdn.com/course/240x135/1362070_b9a1_2.jpg"},
+                    {head:"Flutter & Dart - The Complete Guide",discriptionAuthor:"Academind by Maximilian Schawarzmuller", rating:"4.7",count:"(2,427)",hour:"12 total hours",lectures:"74 lectures",Price:"₹3,289",src:"https://img-c.udemycdn.com/course/240x135/1708340_7108_5.jpg"},
+                    {head:"Docker & Kubernetes: The Practical Guide",discriptionAuthor:"Academind by Maximilian Schawarzmuller", rating:"4.5",count:"(1,624)",hour:"20 total hours", lectures:"122 lectures", Price:"₹3,779",src:"https://img-c.udemycdn.com/course/240x135/3490000_d298_2.jpg"}
                 ],           
             }
         ]
     }, 
     {
         id:23,
-        src:"",
-        desktopSrc:"",
-        mainHead:"",
-        subHead:"",
-        firstCreator:"",
-        updated: "Last updated 7/2025",
-        PremiumRating:"4.4",
-        PremiumRatingCount:"22,357 ratings",
-        premiumCount:"144,267",
-        couponPrize:"₹549",
+        src:"https://img-c.udemycdn.com/course/750x422/1565838_e54e_18.jpg",
+        desktopSrc:"https://img-c.udemycdn.com/course/240x135/1565838_e54e_18.jpg",
+        mainHead:"The Complete Full-Stack Web Development Bootcamp",
+        subHead:"Become a Full-Stack Web Developer with just ONE course. HTML, CSS. Javascript, Node, React, PostgreSQL, Web3 and DApps",
+        firstCreator:"Dr.Angela YU, Developer and Lead Instructor",
+        updated: "Last updated 2/2025",
+        PremiumRating:"4.7",
+        PremiumRatingCount:"450,262 ratings",
+        premiumCount:"1,491,242",
+        couponPrize:"₹399",
         learnContent: [
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:``},
-            {head:""},
-            {head:""},
-            {head:""}
+            {head:"Build 16 web development projects for your portfolio, ready to apply for junior developer jobs."},
+            {head:"After the course you will be able to build ANY website you want."},
+            {head:"Work as a freelance web developer."},
+            {head:"Master backend development with Node"},
+            {head:"Learn the latest technologies, including Javascript, React, Node and even Web3 development."},
+            {head:`Build fully-fledged websites and web apps for your startup or business`},
+            {head:"Master frontend development with React."},
+            {head:"Learn professional developer best practices."}
         ],    
         exploreTopic: [
-            {head:"React JS"},
-            {head:"Redux Framework"},
-            {head:"React Router"},
             {head:"Web Development"},
-            {head:"Firebase"}
+            {head:"Development"}
         ],
         includedItems: [
             {head:"Role Play", src:user},
-            {head:"35 hours on-demand video", src:tvPlay},
-            {head:"5 articles", src:notesNew},
-            {head:"2 downloadable resources", src:downloads},
+            {head:"61 hours on-demand video", src:tvPlay},
+            {head:"66 articles", src:notesNew},
+            {head:"194 downloadable resources", src:downloads},
             {head:"Access on mobile and TV", src:mobile},
             {head:"Certificate of completion", src:prize}
         ],
@@ -3255,21 +3244,22 @@ const course = [
             {welcome:{tittle:"Handling Hover Events",duration:"5:10"}, react:{tittle:"How to Split a UI Into Components",duration:"8:31"},vannilla:{tittle:"Splitting Components in Practice",duration:"4:37"},editing:{tittle:"Component Categories",duration:"10:10"}, about:{tittle:"Prop Drilling",duraiton:"4:10"}}
         ],  
         javascriptHead: [
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""}
+            {head:"Front-End Web Development"},
+            {head:"Introduction to HTML"},
+            {head:"Intermediate HTML"},
+            {head:"Multi-Page Websites"},
+            {head:"Introduction to CSS"},
+            {head:"CSS Propertise"},
+            {head:"Intermidiate CSS"},
+            {head:"Advanced CSS"},
+            {head:"Flexbox"},
+            {head:"Grid"}
         ],     
         requirementItems: [
-            {head:"No React experience necessary! I take you from beginner to expert!"},
-            {head:"Basic understanding of JavaScript is required (this course contains a quick JavaScript review section)"},
-            {head:"Any computer and OS will work - Windows, macOs or Linux"}
+            {head:"No programming experience needed - I'll teach you everything you need to know"},
+            {head:"A computer with access to the internet"},
+            {head:"No paid software required"},
+            {head:"I'll walk you through step by step how to get all the software  installed and set up"}
         ],
         courseInclude: [
             {head:"You just finished learning JavaScipt and are looking for your next step!"},
@@ -3288,30 +3278,30 @@ const course = [
             "With this in mind, I disigned the ideal curriculum for this course a unique blend of real world projects, deep explanations, and theory lectures, to turn you into a confident React and Next.js developer in just a couple weeks."
         ],
         broughtItems: [
-            {head:"Complete React, Next.js & TypeScipt Projects Course...",seller:"Bestseller",hour:"109 total hours",update:"Updated 8/2025",rating:"4.7",people:"76,789",price:"₹3,999",src:"https://img-c.udemycdn.com/course/50x50/2018828_41a9_3.jpg"},
+            {head:"React- The Complete Guide 2025(incl.Next.js, Redux)",seller:"Bestseller",hour:"71.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"980,275",price:"₹3,779",src:"https://img-c.udemycdn.com/course/50x50/1362070_b9a1_2.jpg"},
             {head:"Next.js Ecommerce 2025- Shopping Platform From...",seller:"Premium",hour:"22.5 total hours",update:"Updated 2/2025",rating:"4.7",people:"7,182",price:"₹3,009",src:"https://img-c.udemycdn.com/course/50x50/6347145_b715.jpg"},
-            {head:"React JS Masterclass: Zero To Job Ready With 10 Projects",seller:"Bestseller",hour:"35 total hours",update:"Updated 7/2025",rating:"4.4",people:"13,303",price:"₹3,889",src:"https://img-c.udemycdn.com/course/50x50/5042208_7db9_3.jpg"},
             {head:"React Native - The Practical Guide [2025]",seller:"Bestseller",hour:"28.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"250,425",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/1436092_2024_4.jpg"},
             {head:"100 Hours Web Development Bootcamp - Build 23 React...",seller:"Premium",hour:"128.5 total hours",update:"Updated 7/2025",rating:"4.7",people:"6,854",price:"₹799",src:"https://img-c.udemycdn.com/course/50x50/6375895_c850_2.jpg"},
-            {head:"React- The Complete Guide 2025(incl.Next.js, Redux)",seller:"Bestseller",hour:"71.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"980,275",price:"₹3,779",src:"https://img-c.udemycdn.com/course/50x50/1362070_b9a1_2.jpg"},
+            {head:"React JS Masterclass: Zero To Job Ready With 10 Projects",seller:"Bestseller",hour:"35 total hours",update:"Updated 7/2025",rating:"4.4",people:"13,303",price:"₹3,889",src:"https://img-c.udemycdn.com/course/50x50/5042208_7db9_3.jpg"},
             {head:"Next.js 15 & React - The Complete Guide",seller:"Bestseller",hour:"40.5 total hours", update:"Updated 1/2025",rating:"4.7",people:"147,673",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/3873464_403c_3.jpg"},
+            {head:"Complete React, Next.js & TypeScipt Projects Course...",seller:"Bestseller",hour:"109 total hours",update:"Updated 8/2025",rating:"4.7",people:"76,789",price:"₹3,999",src:"https://img-c.udemycdn.com/course/50x50/2018828_41a9_3.jpg"},
             {head:"The Complete Full-Stack Web Develompment Bootcamp",seller:"Bestseller",hour:"61.5 total hours",update:"2/2025",rating:"4.7",people:"1,488,556",price:"₹3,089",src:"https://img-c.udemycdn.com/course/100x100/1565838_e54e_18.jpg"},
         ],         
         profile: [
             {
                 id:1,
                 instructorHead:"Instructors",
-                instructorSubHead:"",
-                role:"",
+                instructorSubHead:"Dr.Angela Yu, Developer and Lead Instructor",
+                role:"Developer and Lead Instructor",
                 instructorList: [
-                    {src:blackShadedStar, head:"4.5 Instructor Rating"},
-                    {src:grade, head:"9,504 Reviews"},
-                    {src:user, head:"76,104 Students"},
-                    {src:blackPlay, head:"18 Courses"}
+                    {src:blackShadedStar, head:"4.7 Instructor Rating"},
+                    {src:grade, head:"996,638 Reviews"},
+                    {src:user, head:"3,256,823 Students"},
+                    {src:blackPlay, head:"7 Courses"}
                 ],
-                instructorSrc:"",
+                instructorSrc:"https://img-c.udemycdn.com/user/200_H/31334738_a13c_3.jpg",
                 about: [
-                    "Hi, I'm Shubham I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
+                    "Hi, I'm Angela, I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
                     "I'm a full-stack web developer and designer with a passion for building beautiful web interface from scratch. I've been building websites and apps since 2010 and also have a Master's degree in Engineering.",
                     "I discovered my passion for teaching and helping others by sharing everything I knew during college. This passion led me to Udemy in 2015, where I now have the privillage of trainig 2,000,000+ learners in the field of web development",
                     "What learners love the most about all my course is the fact that i take the time to explain every single concept in a way that everyone can easily understand",
@@ -3320,66 +3310,61 @@ const course = [
             }
         ],  
         commentItems: [
-            {head:"Yossed W.",src:fourStar, days:"2 weeks ago", user:"YW", description:"The course is really amazing but the section redux very difficult to understant Otherwise, there is no doubt about it."},
-            {head:"Simon B.", src:fourStar, days:"4 months ago", user:"SB", description:"Really enjoyed the couse, very comprehensive and I learnt a lot about React. NextJS and just coding in general. Only negative is that some parts are outstand which did cause a few problems along the way. Although this is not something that is specifically Jonas fault. As with all things tech, new versions of this or that are relaesed all the time and the code needs to be modified ot altered. One good addition that could be made to this course is an extra section on React v19 now that it is out and stable. Thank you."}, 
-            {head:"Abdul Waris S.", src:fourStar, days:"a week ago", user:"AS",description:"Good course for someone who has a lot of time to watch and practice it. Try to watch is at 1.5x speed since the speech is slow."},
-            {head:"Vivek Kumar S.",src:fiveStar,days:"5 week ago", user:"VS",description:"Thanks Jonas for creating such a great couse I'm grateful to say thar I've completed the entire 85 hour long course by watching every lecture. Looking ahead. I'd love to see you create a course on Data stuctures and Algorithms(DSA) as well. I know there are many DSA courses availabel in the market but honestly, none of them are truly good. I'm pretty sure you would create the best one out there!"},
-            {head:"Shubham B.", src:fourStar,days:"a month ago", user:"SB",description:"Thank you Jonas for your course, I landed an Internship with this course. To the people out there considering this course, yes you should close your eyes and pick this course. This course is structured and deep. It will teach you all the neccessary libraries also, take Router, Redux, React Query, NextJs also. My only advice stay away from tutorial hell, and keep making projects, writing code yourself only."},
-            {head:"Ahamed Mohammed A.",src:fiveStar, days:"2 days ago", user:"AA", description:"Took me around 3 month to finish but damn, such a long journey since im working full time next to it, i learned alot as always a course from Jonas is always an amazing course. Thank you big time"},
             {head:"Atefeh N.",src:fiveStar,days:"3 days ago",user:"AN",description:"The best course ever!! including tones of useful tutorials incliding in many real use cases in React and Next.js world."},
-            {head:"Oleksii P.",src:fiveStar,days:"4 days ago",user:"OP",description:"Great course to get acquainted with frontend developement in general and React and Next.js in particular Be prepare to learn and practice much more on your own, but this course will definitely give you some foundation for this."},
-            {head:"Youssef S.", src:fiveStar, days:"6 days ago", user:"YS",description:"I am very happy with this course and very sad that I have to end this exicting journey  so thank you so much for the really clear concepts and in-depth sections. Thank you very much Jonas"},
+            {head:"Adriano C.", src:fourStar, days:"2 months ago", user:"AD", description:"The course is decently up to date, and many of the problems you might have during development, can be solved by cheking the Q&A section. Thankds Angela!"},
+            {head:"Abdul Waris S.", src:fourStar, days:"a week ago", user:"AS",description:"Good course for someone who has a lot of time to watch and practice it. Try to watch is at 1.5x speed since the speech is slow."},
+            {head:"Shubham B.", src:fourStar,days:"a month ago", user:"SB",description:"Thank you Angela for your course, I landed an Internship with this course. To the people out there considering this course, yes you should close your eyes and pick this course. This course is structured and deep. It will teach you all the neccessary libraries also, take Router, Redux, React Query, NextJs also. My only advice stay away from tutorial hell, and keep making projects, writing code yourself only."},
+            {head:"Simon B.", src:fourStar, days:"4 months ago", user:"SB", description:"Really enjoyed the couse, very comprehensive and I learnt a lot about React. NextJS and just coding in general. Only negative is that some parts are outstand which did cause a few problems along the way. Although this is not something that is specifically Jonas fault. As with all things tech, new versions of this or that are relaesed all the time and the code needs to be modified ot altered. One good addition that could be made to this course is an extra section on React v19 now that it is out and stable. Thank you."}, 
             {head:"Pablo Sebastian P.", src:fiveStar, days:"a month ago", user:"PP", description:"shubham es um excelente profesor que sabe expocar bien el contenido yte da motivacion para seguir avanzandol Super recomendado para cualquier nivel.Muchas gracias!"},
+            {head:"Yossed W.",src:fourStar, days:"2 weeks ago", user:"YW", description:"The course is really amazing but the section redux very difficult to understant Otherwise, there is no doubt about it."},
+            {head:"Vivek Kumar S.",src:fiveStar,days:"5 week ago", user:"VS",description:"Thanks Jonas for creating such a great couse I'm grateful to say thar I've completed the entire 85 hour long course by watching every lecture. Looking ahead. I'd love to see you create a course on Data stuctures and Algorithms(DSA) as well. I know there are many DSA courses availabel in the market but honestly, none of them are truly good. I'm pretty sure you would create the best one out there!"},
+            {head:"Youssef S.", src:fiveStar, days:"6 days ago", user:"YS",description:"I am very happy with this course and very sad that I have to end this exicting journey  so thank you so much for the really clear concepts and in-depth sections. Thank you very much Jonas"},
+            {head:"Ahamed Mohammed A.",src:fiveStar, days:"2 days ago", user:"AA", description:"Took me around 3 month to finish but damn, such a long journey since im working full time next to it, i learned alot as always a course from Jonas is always an amazing course. Thank you big time"},
+            {head:"Oleksii P.",src:fiveStar,days:"4 days ago",user:"OP",description:"Great course to get acquainted with frontend developement in general and React and Next.js in particular Be prepare to learn and practice much more on your own, but this course will definitely give you some foundation for this."},
             {head:"Suraj C.", src:fiveStar, days:"a week ago", user:"SC",description:"The best course that there is out there. With so many different projects and technologies arranged perfectly to build upon, and also the content delivery was a masterpiece"},
-            {head:"Adriano C.", src:fourStar, days:"2 months ago", user:"AD", description:"The course is decently up to date, and many of the problems you might have during development, can be solved by cheking the Q&A section. Thankds Jonas!"},
         ],   
         providedCourseSection: [
             {
                 id:1,
-                author:"",
+                author:"Dr.Angela Yu, Developer and Lead Instructor",
                 ProvideItem: [
-                    {head:"",rating:"4.3",count:"(609)",hour:"21 total hours",lectures:"130 lectures", Price:"₹3,779",src:""},
-                    {head:"", rating:"4.7",count:"(2,427)",hour:"12 total hours",lectures:"74 lectures",Price:"₹3,289",src:""},
-                    {head:"", rating:"4.5",count:"(1,624)",hour:"20 total hours", lectures:"122 lectures", Price:"₹3,779",src:""}
+                    {head:"100 Days of Code: The Complete Python Pro",discriptionAuthor:"Dr.Angela Yu, Developer and Lead Instructor",rating:"4.7",count:"(609)",hour:"21 total hours",lectures:"130 lectures", Price:"₹3,779",src:"https://img-c.udemycdn.com/course/240x135/2776760_f176_10.jpg"},
+                    {head:"IOS & Swift- The Complete iOS App",discriptionAuthor:"Dr.Angela Yu, Developer and Lead Instructor", rating:"4.7",count:"(2,427)",hour:"12 total hours",lectures:"74 lectures",Price:"₹3,289",src:"https://img-c.udemycdn.com/course/240x135/1778502_f4b9_12.jpg"},
+                    {head:"The Complete Flutter Development Bootcamp",discriptionAuthor:"Dr.Angela Yu, Developer and Lead Instructor", rating:"4.5",count:"(1,624)",hour:"20 total hours", lectures:"122 lectures", Price:"₹3,779",src:"https://img-c.udemycdn.com/course/240x135/2259120_305f_6.jpg"}
                 ],           
             }
         ]
     }, 
     {
         id:24,
-        src:"",
-        desktopSrc:"",
-        mainHead:"",
-        subHead:"",
-        firstCreator:"",
-        updated: "Last updated 7/2025",
+        src:"https://img-c.udemycdn.com/course/750x422/6078765_05a8_5.jpg",
+        desktopSrc:"https://img-c.udemycdn.com/course/240x135/6078765_05a8_5.jpg",
+        mainHead:"React JS: Build 6 Real-world React Apps with AI Integration",
+        subHead:"React Masterclass, Build 6 Real World React Projects, Integrate ChatGPT into your App using ChatGPT API",
+        firstCreator:"Code And Create",
+        secondCreator:"George Lomidze",
+        updated: "Last updated 3/2025",
         PremiumRating:"4.4",
-        PremiumRatingCount:"22,357 ratings",
-        premiumCount:"144,267",
-        couponPrize:"₹549",
+        PremiumRatingCount:"132 ratings",
+        premiumCount:"1,398",
+        couponPrize:"₹409",
         learnContent: [
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:``},
-            {head:""},
-            {head:""},
-            {head:""}
+            {head:"Build six functional, real-world React applications from scratch."},
+            {head:"Integrate APIs and handle asynchronous operations in React."},
+            {head:"Manage application data using local storage for a seamless user experience."},
+            {head:"Understand core React concepts including components, state, and props."},
+            {head:"Design responsive UIs that work seamlessly across devices"}
         ],    
         exploreTopic: [
             {head:"React JS"},
-            {head:"Redux Framework"},
-            {head:"React Router"},
             {head:"Web Development"},
-            {head:"Firebase"}
+            {head:"Development"}
         ],
         includedItems: [
             {head:"Role Play", src:user},
-            {head:"35 hours on-demand video", src:tvPlay},
+            {head:"14 hours on-demand video", src:tvPlay},
             {head:"5 articles", src:notesNew},
-            {head:"2 downloadable resources", src:downloads},
+            {head:"7 downloadable resources", src:downloads},
             {head:"Access on mobile and TV", src:mobile},
             {head:"Certificate of completion", src:prize}
         ],
@@ -3392,25 +3377,22 @@ const course = [
             {welcome:{tittle:"React Developer Tools",duration:"1:06"},react:{tittle:"Let's Build a Steps Component",duration:"6:10"},vannilla:{tittle:"Handling Events the React Way",duration:"4:10"},editing:{tittle:"What is State in React?",duration:"1:20"},about:{tittle:"Creating a State Variable With useState",duration:"7:10"}},
             {welcome:{tittle:"Creating the List",duration:"8:34"},react:{tittle:"Fundamentals of State Mangement",duration:"5:37"},vannilla:{tittle:"Thinking About State and Lifting State Up",duration:"5:23"},editing:{tittle:"Deleting an item: More Child-to-Parent- Communication",duration:"5:12"},about:{tittle:`Reviewing "Lifting Up State"`,duration:"4:32"}},
             {welcome:{tittle:"Creating Controlled Elements",duration:"1:03"},react:{tittle:"Project Setup",duration:"4:29"},vannilla:{tittle:"Building the Static App List of Friends",duration:"9:12"},editing:{tittle:"Building the Static App: Forms",duration:"8:03"},about:{tittle:"Displaying the New Friend Form",duration:"7:14"}},
-            {welcome:{tittle:"Section Overview",duration:"8:12"},react:{tittle:`Introduction to Part 2`,duration:"1:02"},vannilla:{tittle:"Useful Resources for Part 2",duration:"7:45"}},
-            {welcome:{tittle:"Handling Hover Events",duration:"5:10"}, react:{tittle:"How to Split a UI Into Components",duration:"8:31"},vannilla:{tittle:"Splitting Components in Practice",duration:"4:37"},editing:{tittle:"Component Categories",duration:"10:10"}, about:{tittle:"Prop Drilling",duraiton:"4:10"}}
         ],  
         javascriptHead: [
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""},
-            {head:""}
+            {head:"Welcome"},
+            {head:"React Crash Course"},
+            {head:"Project - AI Chat Bot"},
+            {head:"Project - Live Weather App"},
+            {head:"Project - Quote Generator App"},
+            {head:"Project - Calendar"},
+            {head:"Project - News App"},
+            {head:"Project - Translator App"},
         ],     
         requirementItems: [
-            {head:"No React experience necessary! I take you from beginner to expert!"},
-            {head:"Basic understanding of JavaScript is required (this course contains a quick JavaScript review section)"},
-            {head:"Any computer and OS will work - Windows, macOs or Linux"}
+            {head:"Modern Web Browser"},
+            {head:"Code Editor"},
+            {head:"Basic understanding of HTML, CSS, and JavaScript"},
+            {head:"Basic understanding of React will be beneficial but is not manadatory"}
         ],
         courseInclude: [
             {head:"You just finished learning JavaScipt and are looking for your next step!"},
@@ -3429,66 +3411,85 @@ const course = [
             "With this in mind, I disigned the ideal curriculum for this course a unique blend of real world projects, deep explanations, and theory lectures, to turn you into a confident React and Next.js developer in just a couple weeks."
         ],
         broughtItems: [
-            {head:"Complete React, Next.js & TypeScipt Projects Course...",seller:"Bestseller",hour:"109 total hours",update:"Updated 8/2025",rating:"4.7",people:"76,789",price:"₹3,999",src:"https://img-c.udemycdn.com/course/50x50/2018828_41a9_3.jpg"},
-            {head:"Next.js Ecommerce 2025- Shopping Platform From...",seller:"Premium",hour:"22.5 total hours",update:"Updated 2/2025",rating:"4.7",people:"7,182",price:"₹3,009",src:"https://img-c.udemycdn.com/course/50x50/6347145_b715.jpg"},
-            {head:"React JS Masterclass: Zero To Job Ready With 10 Projects",seller:"Bestseller",hour:"35 total hours",update:"Updated 7/2025",rating:"4.4",people:"13,303",price:"₹3,889",src:"https://img-c.udemycdn.com/course/50x50/5042208_7db9_3.jpg"},
-            {head:"React Native - The Practical Guide [2025]",seller:"Bestseller",hour:"28.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"250,425",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/1436092_2024_4.jpg"},
-            {head:"100 Hours Web Development Bootcamp - Build 23 React...",seller:"Premium",hour:"128.5 total hours",update:"Updated 7/2025",rating:"4.7",people:"6,854",price:"₹799",src:"https://img-c.udemycdn.com/course/50x50/6375895_c850_2.jpg"},
-            {head:"React- The Complete Guide 2025(incl.Next.js, Redux)",seller:"Bestseller",hour:"71.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"980,275",price:"₹3,779",src:"https://img-c.udemycdn.com/course/50x50/1362070_b9a1_2.jpg"},
             {head:"Next.js 15 & React - The Complete Guide",seller:"Bestseller",hour:"40.5 total hours", update:"Updated 1/2025",rating:"4.7",people:"147,673",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/3873464_403c_3.jpg"},
+            {head:"Next.js Ecommerce 2025- Shopping Platform From...",seller:"Premium",hour:"22.5 total hours",update:"Updated 2/2025",rating:"4.7",people:"7,182",price:"₹3,009",src:"https://img-c.udemycdn.com/course/50x50/6347145_b715.jpg"},
+            {head:"100 Hours Web Development Bootcamp - Build 23 React...",seller:"Premium",hour:"128.5 total hours",update:"Updated 7/2025",rating:"4.7",people:"6,854",price:"₹799",src:"https://img-c.udemycdn.com/course/50x50/6375895_c850_2.jpg"},
             {head:"The Complete Full-Stack Web Develompment Bootcamp",seller:"Bestseller",hour:"61.5 total hours",update:"2/2025",rating:"4.7",people:"1,488,556",price:"₹3,089",src:"https://img-c.udemycdn.com/course/100x100/1565838_e54e_18.jpg"},
+            {head:"React- The Complete Guide 2025(incl.Next.js, Redux)",seller:"Bestseller",hour:"71.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"980,275",price:"₹3,779",src:"https://img-c.udemycdn.com/course/50x50/1362070_b9a1_2.jpg"},
+            {head:"React JS Masterclass: Zero To Job Ready With 10 Projects",seller:"Bestseller",hour:"35 total hours",update:"Updated 7/2025",rating:"4.4",people:"13,303",price:"₹3,889",src:"https://img-c.udemycdn.com/course/50x50/5042208_7db9_3.jpg"},
+            {head:"Complete React, Next.js & TypeScipt Projects Course...",seller:"Bestseller",hour:"109 total hours",update:"Updated 8/2025",rating:"4.7",people:"76,789",price:"₹3,999",src:"https://img-c.udemycdn.com/course/50x50/2018828_41a9_3.jpg"},
+            {head:"React Native - The Practical Guide [2025]",seller:"Bestseller",hour:"28.5 total hours",update:"Updated 8/2025",rating:"4.6",people:"250,425",price:"₹4,469",src:"https://img-c.udemycdn.com/course/100x100/1436092_2024_4.jpg"},
         ],         
         profile: [
             {
                 id:1,
                 instructorHead:"Instructors",
-                instructorSubHead:"",
-                role:"",
+                instructorSubHead:"Code And Create",
+                role:"Web Development / Web Design",
                 instructorList: [
                     {src:blackShadedStar, head:"4.5 Instructor Rating"},
-                    {src:grade, head:"9,504 Reviews"},
-                    {src:user, head:"76,104 Students"},
-                    {src:blackPlay, head:"18 Courses"}
+                    {src:grade, head:"10,054 Reviews"},
+                    {src:user, head:"76,357 Students"},
+                    {src:blackPlay, head:"21 Courses"}
                 ],
-                instructorSrc:"",
+                instructorSrc:"https://img-c.udemycdn.com/user/200_H/29894208_f87c_6.jpg",
                 about: [
-                    "Hi, I'm Shubham I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
+                    "Hi, I'm Code And Create I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
                     "I'm a full-stack web developer and designer with a passion for building beautiful web interface from scratch. I've been building websites and apps since 2010 and also have a Master's degree in Engineering.",
                     "I discovered my passion for teaching and helping others by sharing everything I knew during college. This passion led me to Udemy in 2015, where I now have the privillage of trainig 2,000,000+ learners in the field of web development",
                     "What learners love the most about all my course is the fact that i take the time to explain every single concept in a way that everyone can easily understand",
                     "These couses are exactly the courses I wish I had when first getting into web developement"
                 ], 
-            }
+            },
+            {
+                id:2,
+                instructorHead:"Instructors",
+                instructorSubHead:"George Lomidze",
+                role:"Web Developer / Designer / Co-Founder of 'CodeAndCreate'",
+                instructorList: [
+                    {src:blackShadedStar, head:"4.5 Instructor Rating"},
+                    {src:grade, head:"10,054 Reviews"},
+                    {src:user, head:"76,362 Students"},
+                    {src:blackPlay, head:"21 Courses"}
+                ],
+                instructorSrc:"https://img-c.udemycdn.com/user/200_H/26429000_5590_7.jpg",
+                about: [
+                    "Hi, I'm Geroge Lomidze I'm one of Udemy's Top instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfication",
+                    "I'm a full-stack web developer and designer with a passion for building beautiful web interface from scratch. I've been building websites and apps since 2010 and also have a Master's degree in Engineering.",
+                    "I discovered my passion for teaching and helping others by sharing everything I knew during college. This passion led me to Udemy in 2015, where I now have the privillage of trainig 2,000,000+ learners in the field of web development",
+                    "What learners love the most about all my course is the fact that i take the time to explain every single concept in a way that everyone can easily understand",
+                    "These couses are exactly the courses I wish I had when first getting into web developement"
+                ], 
+            }     
         ],  
         commentItems: [
+            {head:"Youssef S.", src:fiveStar, days:"6 days ago", user:"YS",description:"I am very happy with this course and very sad that I have to end this exicting journey  so thank you so much for the really clear concepts and in-depth sections. Thank you very much Jonas"},
             {head:"Yossed W.",src:fourStar, days:"2 weeks ago", user:"YW", description:"The course is really amazing but the section redux very difficult to understant Otherwise, there is no doubt about it."},
-            {head:"Simon B.", src:fourStar, days:"4 months ago", user:"SB", description:"Really enjoyed the couse, very comprehensive and I learnt a lot about React. NextJS and just coding in general. Only negative is that some parts are outstand which did cause a few problems along the way. Although this is not something that is specifically Jonas fault. As with all things tech, new versions of this or that are relaesed all the time and the code needs to be modified ot altered. One good addition that could be made to this course is an extra section on React v19 now that it is out and stable. Thank you."}, 
+            {head:"Suraj C.", src:fiveStar, days:"a week ago", user:"SC",description:"The best course that there is out there. With so many different projects and technologies arranged perfectly to build upon, and also the content delivery was a masterpiece"},
+            {head:"Pablo Sebastian P.", src:fiveStar, days:"a month ago", user:"PP", description:"shubham es um excelente profesor que sabe expocar bien el contenido yte da motivacion para seguir avanzandol Super recomendado para cualquier nivel.Muchas gracias!"},
+            {head:"Atefeh N.",src:fiveStar,days:"3 days ago",user:"AN",description:"The best course ever!! including tones of useful tutorials incliding in many real use cases in React and Next.js world."},
             {head:"Abdul Waris S.", src:fourStar, days:"a week ago", user:"AS",description:"Good course for someone who has a lot of time to watch and practice it. Try to watch is at 1.5x speed since the speech is slow."},
-            {head:"Vivek Kumar S.",src:fiveStar,days:"5 week ago", user:"VS",description:"Thanks Jonas for creating such a great couse I'm grateful to say thar I've completed the entire 85 hour long course by watching every lecture. Looking ahead. I'd love to see you create a course on Data stuctures and Algorithms(DSA) as well. I know there are many DSA courses availabel in the market but honestly, none of them are truly good. I'm pretty sure you would create the best one out there!"},
+            {head:"Oleksii P.",src:fiveStar,days:"4 days ago",user:"OP",description:"Great course to get acquainted with frontend developement in general and React and Next.js in particular Be prepare to learn and practice much more on your own, but this course will definitely give you some foundation for this."},
             {head:"Shubham B.", src:fourStar,days:"a month ago", user:"SB",description:"Thank you Jonas for your course, I landed an Internship with this course. To the people out there considering this course, yes you should close your eyes and pick this course. This course is structured and deep. It will teach you all the neccessary libraries also, take Router, Redux, React Query, NextJs also. My only advice stay away from tutorial hell, and keep making projects, writing code yourself only."},
             {head:"Ahamed Mohammed A.",src:fiveStar, days:"2 days ago", user:"AA", description:"Took me around 3 month to finish but damn, such a long journey since im working full time next to it, i learned alot as always a course from Jonas is always an amazing course. Thank you big time"},
-            {head:"Atefeh N.",src:fiveStar,days:"3 days ago",user:"AN",description:"The best course ever!! including tones of useful tutorials incliding in many real use cases in React and Next.js world."},
-            {head:"Oleksii P.",src:fiveStar,days:"4 days ago",user:"OP",description:"Great course to get acquainted with frontend developement in general and React and Next.js in particular Be prepare to learn and practice much more on your own, but this course will definitely give you some foundation for this."},
-            {head:"Youssef S.", src:fiveStar, days:"6 days ago", user:"YS",description:"I am very happy with this course and very sad that I have to end this exicting journey  so thank you so much for the really clear concepts and in-depth sections. Thank you very much Jonas"},
-            {head:"Pablo Sebastian P.", src:fiveStar, days:"a month ago", user:"PP", description:"shubham es um excelente profesor que sabe expocar bien el contenido yte da motivacion para seguir avanzandol Super recomendado para cualquier nivel.Muchas gracias!"},
-            {head:"Suraj C.", src:fiveStar, days:"a week ago", user:"SC",description:"The best course that there is out there. With so many different projects and technologies arranged perfectly to build upon, and also the content delivery was a masterpiece"},
+            {head:"Vivek Kumar S.",src:fiveStar,days:"5 week ago", user:"VS",description:"Thanks Jonas for creating such a great couse I'm grateful to say thar I've completed the entire 85 hour long course by watching every lecture. Looking ahead. I'd love to see you create a course on Data stuctures and Algorithms(DSA) as well. I know there are many DSA courses availabel in the market but honestly, none of them are truly good. I'm pretty sure you would create the best one out there!"},
             {head:"Adriano C.", src:fourStar, days:"2 months ago", user:"AD", description:"The course is decently up to date, and many of the problems you might have during development, can be solved by cheking the Q&A section. Thankds Jonas!"},
+            {head:"Simon B.", src:fourStar, days:"4 months ago", user:"SB", description:"Really enjoyed the couse, very comprehensive and I learnt a lot about React. NextJS and just coding in general. Only negative is that some parts are outstand which did cause a few problems along the way. Although this is not something that is specifically Jonas fault. As with all things tech, new versions of this or that are relaesed all the time and the code needs to be modified ot altered. One good addition that could be made to this course is an extra section on React v19 now that it is out and stable. Thank you."}, 
         ],   
         providedCourseSection: [
             {
                 id:1,
-                author:"",
+                author:"Code And Create",
                 ProvideItem: [
-                    {head:"",rating:"4.3",count:"(609)",hour:"21 total hours",lectures:"130 lectures", Price:"₹3,779",src:""},
-                    {head:"", rating:"4.7",count:"(2,427)",hour:"12 total hours",lectures:"74 lectures",Price:"₹3,289",src:""},
-                    {head:"", rating:"4.5",count:"(1,624)",hour:"20 total hours", lectures:"122 lectures", Price:"₹3,779",src:""}
+                    {head:"10 Mega Responsive Websites with HTML",discriptionAuthor:"Code And Create, Georage Lomidze",rating:"4.3",count:"(609)",hour:"21 total hours",lectures:"130 lectures", Price:"₹3,779",src:"https://img-c.udemycdn.com/course/240x135/3598684_c319_5.jpg"},
+                    {head:"Build 30 Web Projects with HTML, CSS, and JavaScript",discriptionAuthor:"Code And Create, Georage Lomidze", rating:"4.7",count:"(2,427)",hour:"12 total hours",lectures:"74 lectures",Price:"₹3,289",src:"https://img-c.udemycdn.com/course/240x135/5523428_184b_2.jpg"},
+                    {head:"50+ Web Projects with HTML, CSS and React",discriptionAuthor:"Code And Create, Georage Lomidze", rating:"4.5",count:"(1,624)",hour:"20 total hours", lectures:"122 lectures", Price:"₹3,779",src:"https://img-c.udemycdn.com/course/240x135/4663468_cc81_2.jpg"}
                 ],           
             }
         ]
     }
 ]
       
-          
-
+                                                                                         
 
 export default course;                                                                                                                                                                   

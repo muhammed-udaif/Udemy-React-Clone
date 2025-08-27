@@ -7,10 +7,9 @@ import Sidebar from './Componets/Sidebar';
 import LearningCard from './Componets/LearningCard';
 import Footer from './Componets/Footer';
 import FilterPanel from './Componets/FilterPanel';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useParams } from 'react-router-dom';
 import CoursePage from './Componets/CoursePage';
-import StickyNav from './Componets/StickyNav';
-
+                                    
 function AppContent() {
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
   const [openFilter, setOpenFilter] = useState(false);
@@ -21,8 +20,8 @@ function AppContent() {
   const [isTopic, setIsTopic] = useState([])
   const [isLevel, setLevel] = useState([])
   const [isTitle, setTitle] = useState([])
-  const [isPrice, setPrice] = useState([])  
-  
+  const [isPrice, setPrice] = useState([])
+
  const filterPractice = (selectPractice) =>{
   setIsPractice(prev => 
     prev.includes(selectPractice)?
@@ -51,13 +50,12 @@ function AppContent() {
     return () => window.removeEventListener("scroll", handleScroll);
   },[]);
 
-
+                          
               
   return (
     <>              
     <div className='container'>
      <Navbar toggleButton={toggleButton}/>
-     {stickyNav && <StickyNav/>}
      <Sidebar isOpen={isOpenSidebar} closeSidebar={() =>setIsOpenSidebar(false)}/>
      {isHomePage && (
       <>

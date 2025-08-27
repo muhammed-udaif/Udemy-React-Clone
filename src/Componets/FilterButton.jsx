@@ -39,16 +39,16 @@ function FilterButton({handleFilter, filterPractice}) {
                <img src={filter} alt="" />
                <span className='filter'><strong>All filters</strong></span>
             </button>
-          </div>
+          </div>     
           <div className="relevant ">
             <select className='most-relevant' id="sort-relevant">
               <option value="Most relevant" className='sort-option'>Most Relevant</option>
               <option value="Highest Rated" className='sort-option'>Highest Rated</option>
               <option value="Most Reviewed" className='sort-option'>Most Reviewed</option>
               <option value="Newest" className='sort-option'>Newest</option>
-            </select>
-          </div> 
-        </div>
+            </select>        
+          </div>                                                                                                                                                           
+        </div>                                                 
         <div className="filter-btn-series">
           <section className='select-btn-series'>
             <div className="filter-grid-container ">

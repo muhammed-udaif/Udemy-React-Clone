@@ -123,26 +123,26 @@ function FilterPanel({filterOpen, closeSidebar, isRating, isLanguage, isPractice
                                         <span className='toggle-radio'></span>
                                     </label>
                                 </div>
-                            </fieldset>
+                            </fieldset>                                                              
                             {ratingSection.map((section,outerIndex) =>(
                             <div className="repeatedly-filter-panel-container" key={outerIndex}>
                                 <label className='rating-filter'>{section.head}</label>
                                 <div className="inside-ratings">
                                     <div className="fist-rating-section-container">
-                                        <div>
+                                        <div>                               
                                             { getItemForSection(section.head).map((item,innerIndex) =>(
                                             <label className='radio-rating' key={innerIndex}>
                                                 { section.head === "Ratings" ? 
-                                                <>
+                                                <>                              
                                                 <input type={section.type} className='radio-circle' name='radio' checked={isRating === item.rating.split(" ")[0]} onChange = {() => setIsRating(item.rating.split(" ")[0])}/>
                                                 <span className='rating-pic-container'>
-                                                    <img src={item.src} alt="most-rated-star" className='most-rated-star'/>
+                                                    <img src={item.src} alt="most-rated-star" className='most-rated-star'/>         
                                                 </span>
                                                  {item.rating}
                                                  <span className='rating-numbers'>{item.number}</span>
                                                 </>
-                                                :
-                                                <>
+                                                :              
+                                                <>                                                                                                                                  
                                                 <input type="checkbox" className='radio-circle' 
                                                 checked={ 
                                                     section.head === "Language"? isLanguage.includes(item.language):
@@ -152,14 +152,14 @@ function FilterPanel({filterOpen, closeSidebar, isRating, isLanguage, isPractice
                                                     section.head === "Level" ? isLevel.includes(item.label):
                                                     section.head === "Subtitles" ? isTitle.includes(item.label):
                                                     section.head === "Price" ? isPrice.includes(item.label):
-                                                    false } 
-                                                onChange={() =>{ 
+                                                    false }        
+                                                onChange={() =>{   
                                                     if(section.head === "Language"){
                                                         if(isLanguage.includes(item.language)){
                                                            setIsLanguage(isLanguage.filter(lang => lang !== item.language))
                                                         }else{
                                                            setIsLanguage([...isLanguage,item.language])
-                                                        }
+                                                        }           
                                                     }else if(section.head === "Hands-on Practice"){
                                                         if(isPractice.includes(item.label)){
                                                             setIsPractice(isPractice.filter(prev => prev !== item.label))
@@ -197,7 +197,7 @@ function FilterPanel({filterOpen, closeSidebar, isRating, isLanguage, isPractice
                                                             setPrice([...isPrice, item.label])
                                                         }
                                                     }
-                                            }} 
+                                            }}    
                                                 />
                                                  {item.label || item.language}
                                                  <span className='rating-numbers'>{item.viewers}</span>

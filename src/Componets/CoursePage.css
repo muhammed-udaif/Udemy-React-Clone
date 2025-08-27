@@ -159,7 +159,9 @@
 }
 .below-coupon-learn-container{
     max-inline-size: 1084px;
-    margin: 0px;
+    /* margin: 0px; */
+    margin-inline: auto;
+    margin-block: 0;
 }
 .sub-below-coupon-learn-container{
     margin: 24px 24px 0px 24px;
@@ -254,9 +256,6 @@
     .programing{
         color: #c0c4fc;
     }
-    /* .right-arrow{
-        color: oklch(100% 0 0deg);
-    } */
     .react-guide-container{
         max-inline-size: 700px;
         margin: 0px 48px;
@@ -282,7 +281,7 @@
         margin: 0px 8px 16px 0px;
     }
     .below-coupon-learn-container{
-        margin: 0px 128px;
+        /* margin: 0px 128px; */
         max-inline-size: 1184px;
     }
     .sub-below-coupon-learn-container{

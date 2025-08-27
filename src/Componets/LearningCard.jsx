@@ -35,9 +35,9 @@ function LearningCard({isRating, isLanguage, isPractice, isDuration, isTopic, is
                     console.error('failed to fetch the data ', error)
                 }
             }
-            fetchData();
-        },[])
-
+            fetchData();     
+        },[])                                                           
+                                    
         const filteredCourse = cardItem.filter(cardItem => {
              const matchRating = isRating === "" || cardItem.rating >= parseFloat(isRating);
              const matchLanguage = isLanguage.length === 0 || isLanguage.includes(cardItem.language);

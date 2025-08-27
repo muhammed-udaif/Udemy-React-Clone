@@ -17,17 +17,12 @@ import Requirement from '../Pages/Requirement'
 import Description from '../Pages/Description'
 import BoughtCourse from '../Pages/BoughtCourse'
 import Instructure from '../Pages/Instructure'
-import blackShadedStar from '../assests/blackShaded-star.svg'
-import grade from '../assests/grade.svg'
-import user from '../assests/user.svg'
-import blackPlay from '../assests/blackPlay.svg'
 import PeopleComment from '../Pages/PeopleComment'
 import ProvidedCourse from '../Pages/ProvidedCourse'
 import Report from '../Pages/Report'
-import fiveStar from '../assests/fiveStar.svg'
-import fourstar from '../assests/star-1.svg'
 import courseData from '../Data/courseData'
 import { useParams } from 'react-router-dom'
+import StickyNav from './StickyNav'
 
 function CoursePage() {
 
@@ -53,9 +48,22 @@ function CoursePage() {
      return () => window.removeEventListener("scroll", handleCoupon);
 
    },[]);
+    
+   const [stickyNav, setStickyNav] = useState(false);
+   useEffect(() =>{
+      
+    const handleScroll = () =>{
+        setStickyNav(window.scrollY > 42)
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+     
+   })
+
 
   return (                                 
     <>  
+    {stickyNav && <StickyNav course={course}/>}
     <main className="coursePage-container">
         <div className="sub-coursePage-container">
             <div className="inside-coursePage">
