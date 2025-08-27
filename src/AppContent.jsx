@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react';
 import FilterButton from './Componets/FilterButton';
 import Navbar from './Componets/Navbar';
@@ -7,7 +7,7 @@ import Sidebar from './Componets/Sidebar';
 import LearningCard from './Componets/LearningCard';
 import Footer from './Componets/Footer';
 import FilterPanel from './Componets/FilterPanel';
-import { BrowserRouter as Router, Routes, Route, useLocation, useParams } from 'react-router-dom';
+import {  Routes, Route, useLocation} from 'react-router-dom';
 import CoursePage from './Componets/CoursePage';
                                     
 function AppContent() {
@@ -39,7 +39,7 @@ function AppContent() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
   
-  const [stickyNav, setStickyNav] = useState(false)
+  const [, setStickyNav] = useState(false)
 
   useEffect(() =>{
     const handleScroll = () =>{
